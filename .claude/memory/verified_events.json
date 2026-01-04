@@ -1,0 +1,57 @@
+[
+  {
+    "ticker": "ALDX",
+    "event": "PDUFA",
+    "date": "2026-03-16",
+    "source": "https://ir.aldeyra.com/news-releases/news-release-details/aldeyra-therapeutics-announces-pdufa-extension-new-drug",
+    "drug": "Reproxalap (dry eye disease)",
+    "entry_date": "2026-01-15",
+    "exit_date": "2026-03-09",
+    "status": "Confirmed",
+    "notes": "FDA extended PDUFA from Dec 2025 to Mar 16, 2026. Major amendment filed Dec 12, 2025."
+  },
+  {
+    "ticker": "RYTM",
+    "event": "PDUFA",
+    "date": "2026-03-20",
+    "source": "https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-extension-review-period-0",
+    "drug": "Imcivree (acquired hypothalamic obesity)",
+    "entry_date": "2026-01-19",
+    "exit_date": "2026-03-13",
+    "status": "Confirmed",
+    "notes": "PDUFA extended from Dec 20, 2025 to Mar 20, 2026. Priority Review for rare disease."
+  },
+  {
+    "ticker": "REPL",
+    "event": "PDUFA",
+    "date": "2026-04-10",
+    "source": "https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-bla-resubmission-rp1-0",
+    "drug": "RP1 + nivolumab (advanced melanoma)",
+    "entry_date": "2026-02-09",
+    "exit_date": "2026-04-03",
+    "status": "Confirmed",
+    "notes": "BLA resubmission accepted Oct 2025. Class II resubmission (Priority BLA). Oncolytic immunotherapy."
+  },
+  {
+    "ticker": "AXSM",
+    "event": "PDUFA",
+    "date": "2026-04-30",
+    "source": "https://www.globenewswire.com/news-release/2025/12/31/3211743/0/en/Axsome-Therapeutics-Announces-FDA-Acceptance-and-Priority-Review-of-Supplemental-New-Drug-Application-for-AXS-05-for-the-Treatment-of-Alzheimer-s-Disease-Agitation.html",
+    "drug": "AXS-05 (Alzheimer's disease agitation)",
+    "entry_date": "2026-02-29",
+    "exit_date": "2026-04-23",
+    "status": "Confirmed",
+    "notes": "Priority Review granted Dec 31, 2025. Breakthrough Therapy designation. Already marketed as Auvelity for MDD."
+  },
+  {
+    "ticker": "CING",
+    "event": "PDUFA",
+    "date": "2026-05-31",
+    "source": "https://www.cingulate.com/news-releases/news-release-details/fda-accepts-cingulates-new-drug-application-ctx-1301-attention",
+    "drug": "CTx-1301 (ADHD)",
+    "entry_date": "2026-04-01",
+    "exit_date": "2026-05-24",
+    "status": "Confirmed",
+    "notes": "NDA accepted Oct 2025. Precision Timed Release dexmethylphenidate. Small-cap with limited cash runway."
+  }
+]

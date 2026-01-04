@@ -1,0 +1,114 @@
+[
+  {
+    "ticker": "ALDX",
+    "event": "PDUFA",
+    "date": "2026-03-16",
+    "source": "https://catalystalert.io/pdufa/february-2026",
+    "drug": "Reproxalap (dry eye disease)",
+    "entry_date_estimate": "2026-01-15"
+  },
+  {
+    "ticker": "RYTM",
+    "event": "PDUFA",
+    "date": "2026-03-20",
+    "source": "https://www.merlintrader.com/fda-pdufa-dates-jan-2026/",
+    "drug": "Imcivree (acquired hypothalamic obesity)",
+    "entry_date_estimate": "2026-01-19"
+  },
+  {
+    "ticker": "CING",
+    "event": "PDUFA",
+    "date": "2026-04-01",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "CTx-1301",
+    "entry_date_estimate": "2026-01-31"
+  },
+  {
+    "ticker": "REPL",
+    "event": "PDUFA",
+    "date": "2026-04-01",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "RP1 (Priority BLA)",
+    "entry_date_estimate": "2026-01-31"
+  },
+  {
+    "ticker": "AXSM",
+    "event": "PDUFA",
+    "date": "2026-04-03",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "AXS-05",
+    "entry_date_estimate": "2026-02-02"
+  },
+  {
+    "ticker": "LENZ",
+    "event": "PDUFA",
+    "date": "2026-04-09",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "LENZ-101",
+    "entry_date_estimate": "2026-02-08"
+  },
+  {
+    "ticker": "PHAR",
+    "event": "PDUFA",
+    "date": "2026-04-15",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "leniolisib (Priority NDA)",
+    "entry_date_estimate": "2026-02-14"
+  },
+  {
+    "ticker": "INO",
+    "event": "PDUFA",
+    "date": "2026-04-20",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "INO-4800 (Priority NDA)",
+    "entry_date_estimate": "2026-02-19"
+  },
+  {
+    "ticker": "AQST",
+    "event": "PDUFA",
+    "date": "2026-04-27",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "EXSERVAN",
+    "entry_date_estimate": "2026-02-26"
+  },
+  {
+    "ticker": "INSM",
+    "event": "PDUFA",
+    "date": "2026-04-28",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "Arikayce (Priority sNDA)",
+    "entry_date_estimate": "2026-02-27"
+  },
+  {
+    "ticker": "CYTK",
+    "event": "PDUFA",
+    "date": "2026-04-30",
+    "source": "https://catalystalert.io/pdufa/april-2026",
+    "drug": "omecamtiv mecarbil",
+    "entry_date_estimate": "2026-03-01"
+  },
+  {
+    "ticker": "GN.CO",
+    "event": "PDUFA",
+    "date": "2026-06-01",
+    "source": "https://catalystalert.io/pdufa/june-2026",
+    "drug": "Undisclosed (Genmab)",
+    "entry_date_estimate": "2026-04-02"
+  },
+  {
+    "ticker": "ETON",
+    "event": "PDUFA",
+    "date": "2026-06-01",
+    "source": "https://catalystalert.io/pdufa/june-2026",
+    "drug": "TARC (Epilepsy)",
+    "entry_date_estimate": "2026-04-02"
+  },
+  {
+    "ticker": "CORT",
+    "event": "PDUFA",
+    "date": "2026-06-01",
+    "source": "https://catalystalert.io/pdufa/june-2026",
+    "drug": "Relacorilant (Cushing's syndrome)",
+    "entry_date_estimate": "2026-04-02"
+  }
+]

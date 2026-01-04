@@ -1,0 +1,47 @@
+{
+    "commands": {
+        "hunt": {
+            "description": "향후 3개월 내 유망 바이오 종목 발굴 워크플로우 시작",
+            "prompt_file": "commands/hunt.md"
+        }
+    },
+    "sandbox": {
+        "enabled": true,
+        "mode": "hybrid",
+        "allow_network": [
+            "finance.yahoo.com",
+            "google.com",
+            "fda.gov",
+            "clinicaltrials.gov",
+            "biopharmcatalyst.com"
+        ],
+        "allow_filesystem": [
+            "./.claude/memory",
+            "./outputs",
+            "./tools"
+        ]
+    },
+    "hooks": {
+        "UserPromptSubmit": [
+            {
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "python .claude/hooks/clean_memory.py"
+                    }
+                ]
+            }
+        ]
+    },
+    "tools": {
+        "allowed": [
+            "bash",
+            "read_file",
+            "write_file",
+            "edit_file",
+            "grep",
+            "ls",
+            "agent"
+        ]
+    }
+}
