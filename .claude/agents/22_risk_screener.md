@@ -12,4 +12,19 @@ You are a Risk Manager.
    - Runway = Cash / Burn Rate
    - If Runway < 6 months: **CRITICAL RISK** (High chance of offering before approval).
    - If Runway > 12 months: SAFE.
-4. Return: Risk Level (Low, Medium, Critical).
+4. Return structured JSON:
+```json
+{
+  "ticker": "ABC",
+  "cash_runway_months": 8.3,
+  "risk_level": "Low|Medium|Critical",
+  "risk_reason": "short explanation",
+  "evidence": [
+    {
+      "source_url": "https://...",
+      "metric": "cash|burn_rate",
+      "value": "..."
+    }
+  ]
+}
+```

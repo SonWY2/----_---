@@ -14,3 +14,10 @@
 - Company has < 6 months of cash (Dilution risk).
 - Phase 2 data was mixed/weak.
 - Stock is already trading at 52-week highs (Priced in).
+
+## Historical Context Layer (Annotation-Only)
+- Add a historical context note after tradable filtering.
+- Use fixed event windows: `[-60,-7]`, `[-30,-7]`, `[-10,+3]`.
+- Compare stock return to benchmark return to avoid regime distortion.
+- If sample size is too small, label `insufficient_history` instead of forcing conclusion.
+- Historical context supports interpretation and ranking, but does not override core risk rules.
