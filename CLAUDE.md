@@ -16,11 +16,12 @@ biotech_alpha/
 │   ├── CLAUDE.md              # 에이전트 코딩 규칙 및 아키텍처 원칙
 │   ├── settings.json          # 커맨드 정의, 샌드박스 설정, 훅 설정
 │   ├── commands/hunt.md       # 워크플로우 시작점 (/hunt 명령어)
-│   ├── agents/                # 7개의 전문 에이전트 정의 파일 (00-22)
+│   ├── agents/                # 8개의 전문 에이전트 정의 파일 (00-23)
 │   ├── context/strategy_pdufa.md  # PDUFA Run-up 트레이딩 전략 로직
 │   ├── hooks/clean_memory.py  # 실행 전 메모리 초기화 스크립트
 │   └── memory/                # 에이전트 간 JSON 기반 데이터 교환 폴더
 ├── tools/market_calc.py       # 날짜 계산 및 주가 트렌드 분석 유틸리티
+├── tools/event_study.py       # 1~5년 히스토리 이벤트 윈도우 분석 유틸리티
 ├── outputs/                   # 최종 분석 리포트 저장소 (report_YYYYMMDD.md)
 └── requirements.txt           # Python 의존성 라이브러리
 ```
@@ -43,8 +44,10 @@ pip install -r requirements.txt
 
 1. **CIO (00_cio.md)**: 전체 프로세스 총괄 및 오케스트레이션
 2. **Discovery Lead (10)** → **Event Scout (11)**: 향후 이벤트 탐색 → **Fact Verifier (12)**: 공식 소스에서 날짜 검증
-3. **Analysis Lead (20)** → **Quant (21)**: 매수/매도 날짜 계산 → **Risk Screener (22)**: 현금 보유량 체크
-4. 결과는 `.claude/memory/`에 JSON 파일로 저장되며, 최종 리포트는 `outputs/`에 생성됨
+3. Discovery 결과를 **확정형(verified)** / **추정형(watchlist)** 2개 레인으로 분리
+4. **Analysis Lead (20)** → **Quant (21)**: 매수/매도 날짜 계산 → **Risk Screener (22)**: 현금 보유량 체크
+5. **Historical Significance (23)**: 최종 후보에 1~5년 히스토리 유의성 노트 추가
+6. 결과는 `.claude/memory/`에 JSON 파일로 저장되며, 최종 리포트는 `outputs/`에 생성됨
 
 **Pre-command 훅**: `/hunt` 실행 전 자동으로 `clean_memory.py`를 실행하여 이전 데이터 삭제
 
@@ -81,7 +84,10 @@ pip install -r requirements.txt
 
 **에이전트 간 통신**:
 - JSON 파일을 통한 데이터 교환 (`.claude/memory/` 폴더)
-- 표준 파일명: `raw_events.json`, `verified_events.json`, `final_candidates.json`
+- 표준 파일명:
+  - Core: `raw_events.json`, `verified_events.json`, `final_candidates.json`
+  - Expanded: `watchlist_candidates.json`, `discovery_coverage.json`, `verification_log.json`
+  - Historical: `historical_context.json`, `enriched_candidates.json`
 - 각 에이전트는 입력 JSON 읽기 → 처리 → 출력 JSON 작성
 
 **샌드박스 제약사항**:
@@ -106,17 +112,19 @@ python .claude/hooks/clean_memory.py
 ```bash
 ls -la .claude/agents/
 # 확인 내용: 00_cio.md, 10_discovery_lead.md, 11_event_scout.md,
-#           12_fact_verifier.md, 20_analysis_lead.md, 21_quant.md, 22_risk_screener.md
+#           12_fact_verifier.md, 20_analysis_lead.md, 21_quant.md,
+#           22_risk_screener.md, 23_historical_significance.md
 ```
 
 ## 데이터 흐름 예시
 
-1. **Event Scout** → `memory/raw_events.json`: `[{ticker, event, date, source}]`
-2. **Fact Verifier** → 원본 이벤트 필터링 → **Discovery Lead** → `memory/verified_events.json`
+1. **Event Scout** → `memory/raw_events.json`, `memory/discovery_coverage.json`
+2. **Fact Verifier + Discovery Lead** → `memory/verified_events.json`, `memory/watchlist_candidates.json`, `memory/verification_log.json`
 3. **Quant Analyst** → `market_calc.py` 사용 → `target_entry_date`, `trend` 추가
 4. **Risk Screener** → `cash_runway`, `risk_level` 추가
 5. **Analysis Lead** → 90일 이내 매수일 필터링 → `memory/final_candidates.json`
-6. **CIO** → `outputs/report_YYYYMMDD.md` 생성
+6. **Historical Significance** → `tools/event_study.py` 사용 → `memory/historical_context.json`, `memory/enriched_candidates.json`
+7. **CIO** → `outputs/report_YYYYMMDD.md` 생성
 
 ## 핵심 규칙 (biotech_alpha/.claude/CLAUDE.md 기반)
 

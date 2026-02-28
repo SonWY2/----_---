@@ -13,7 +13,12 @@
             "google.com",
             "fda.gov",
             "clinicaltrials.gov",
-            "biopharmcatalyst.com"
+            "biopharmcatalyst.com",
+            "sec.gov",
+            "globenewswire.com",
+            "prnewswire.com",
+            "businesswire.com",
+            "nasdaq.com"
         ],
         "allow_filesystem": [
             "./.claude/memory",
