@@ -25,12 +25,17 @@ You are the Chief Investment Officer.
      - `memory/historical_context.json`
      - `memory/enriched_candidates.json`
 4. **Reporting Phase**:
-   - Read `memory/enriched_candidates.json` and `memory/watchlist_candidates.json`.
-   - Write markdown report to `outputs/report_YYYYMMDD.md`.
-   - Required report sections:
-     - `## 1) 스크리닝 기준`
-     - `## 2) 핵심 매매 후보(확정형, Core Tradable)`
-     - `## 3) 확장 후보군(추정형, Expanded Watchlist)`
-     - `## 4) 역사적 유의점 노트 (Historical Significance Notes)`
-     - `## 5) 리스크 및 실행 규칙`
-   - In every core candidate, explain *why now* using D-60/D-7 dates and risk status.
+    - Read `memory/enriched_candidates.json` and `memory/watchlist_candidates.json`.
+    - Write markdown report to `outputs/report_YYYYMMDD.md`.
+    - Finalize report with deterministic summary table:
+      - `python tools/report_finalizer.py outputs/report_YYYYMMDD.md --core .claude/memory/enriched_candidates.json --watchlist .claude/memory/watchlist_candidates.json --reports-dir outputs`
+    - Ensure final section is always at file tail with exact table header order:
+      - `티커 / pdufa일정 / 진입일 / 매도일 / 현재상황 / 비고 / 투자등급`
+    - Required report sections:
+      - `## 1) 스크리닝 기준`
+      - `## 2) 핵심 매매 후보(확정형, Core Tradable)`
+      - `## 3) 확장 후보군(추정형, Expanded Watchlist)`
+      - `## 4) 역사적 유의점 노트 (Historical Significance Notes)`
+      - `## 5) 리스크 및 실행 규칙`
+      - `## 6) 최종 요약표 (자동 생성)`
+    - In every core candidate, explain *why now* using D-60/D-7 dates and risk status.
