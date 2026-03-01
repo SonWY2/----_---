@@ -116,15 +116,26 @@ def _derive_status(
 
 
 def _derive_grade(item: Dict[str, Any], lane: str) -> str:
-    recommendation = _clean_text(item.get("recommendation"))
-    if recommendation:
-        return recommendation.upper()
-
+    recommendation = _clean_text(item.get("recommendation")).upper()
     risk_level = _clean_text(item.get("risk_level")).lower()
+
+    def to_signal(base: str, detail: str = "") -> str:
+        detail = detail.strip()
+        return f"{base} {detail}" if detail else base
+
+    if recommendation:
+        if any(token in recommendation for token in ("STRONG BUY", "BUY")) and "HOLD" not in recommendation:
+            return to_signal("🟢", recommendation)
+        if any(token in recommendation for token in ("HOLD", "WATCH")):
+            return to_signal("🟡", recommendation)
+        if any(token in recommendation for token in ("AVOID", "SELL", "REDUCE")):
+            return to_signal("🔴", recommendation)
+        return to_signal("🟡", recommendation)
+
     risk_map = {
-        "low": "BUY",
-        "medium": "HOLD",
-        "critical": "AVOID",
+        "low": "🟢",
+        "medium": "🟡",
+        "critical": "🔴",
     }
     if risk_level in risk_map:
         return risk_map[risk_level]
@@ -133,12 +144,12 @@ def _derive_grade(item: Dict[str, Any], lane: str) -> str:
         confidence = item.get("confidence")
         if isinstance(confidence, (float, int)):
             if confidence >= 0.8:
-                return "WATCHLIST-HIGH"
+                return "🟡 WATCHLIST-HIGH"
             if confidence >= 0.5:
-                return "WATCHLIST-MID"
-        return "WATCHLIST"
+                return "🟡 WATCHLIST-MID"
+        return "🟡 WATCHLIST"
 
-    return "REVIEW"
+    return "🟡 REVIEW"
 
 
 def _build_note(item: Dict[str, Any], lane: str) -> str:
