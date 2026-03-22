@@ -1,0 +1,18 @@
+{
+  "status": "fail",
+  "report": "outputs/report_20260321.md",
+  "checks": {
+    "section_order_ok": true,
+    "summary_header_exact": false,
+    "ranked_count": 0,
+    "watchlist_count": 0,
+    "excluded_count": 0
+  },
+  "missing_core_body": [],
+  "missing_core_summary": [],
+  "missing_watchlist_body": [],
+  "missing_watchlist_summary": [],
+  "issues": [
+    "summary table header is not exact"
+  ]
+}

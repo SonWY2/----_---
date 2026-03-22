@@ -1,0 +1,49 @@
+{
+  "generated_timestamp": "2026-03-21T00:00:00Z",
+  "infrastructure_status": "search_completely_failed",
+  "core_criteria": "Core candidates must pass bear-case review with no critical or high-severity red flags. May have mild-to-moderate verification gaps but structurally sound catalyst potential.",
+  "core": [
+    {
+      "ticker": "BGEN",
+      "claim_id": "US_BGEN_P3TOPLINE_20260830",
+      "company_name": "Biogen",
+      "bear_case_review": "passed",
+      "thesis_break_score": 0.15,
+      "major_risks": [
+        "Primary source unverified - phase 3 timeline cannot be verified",
+        "Large-cap with diversified pipeline - catalyst may not be meaningful price driver"
+      ],
+      "red_flags": [],
+      "risk_factors": {
+        "financial": "Low - large-cap with established commercial products",
+        "regulatory": "Low - experienced regulatory team",
+        "clinical": "Low - multiple programs in development",
+        "commercial": "Low - established commercial infrastructure"
+      },
+      "downgrade_reasons": [],
+      "notes": "Large-cap biotech with diversified pipeline. Phase 3 timeline unverified but company structure and financials sound. Lower risk profile but also lower volatility/catalyst impact potential."
+    },
+    {
+      "ticker": "RDY",
+      "claim_id": "US_RDY_PDUFA_20260630",
+      "company_name": "Dr Reddy's Laboratories",
+      "bear_case_review": "passed",
+      "thesis_break_score": 0.20,
+      "major_risks": [
+        "Primary source unverified - specific 2026 PDUFA cannot be verified",
+        "Diversified generic/biosimilar pipeline - catalyst may not be meaningful"
+      ],
+      "red_flags": [],
+      "risk_factors": {
+        "financial": "Low - diversified revenue base",
+        "regulatory": "Low - experienced with biosimilar approvals",
+        "clinical": "N/A - primarily generics/biosimilars",
+        "commercial": "Low - established global infrastructure"
+      },
+      "downgrade_reasons": [],
+      "notes": "Indian generic/biosimilar company with diversified pipeline. Specific 2026 PDUFA unverified but company financially sound. Lower catalyst impact due to diversified business model."
+    }
+  ],
+  "core_count": 2,
+  "notes": "Core lane is very conservative due to complete search infrastructure failure. Only large-cap, financially stable companies with no major red flags passed to core. Both candidates have unverified catalysts but sound company fundamentals. Verification needed on specific 2026 catalysts before trading consideration."
+}

@@ -1,0 +1,7 @@
+{
+  "excluded_timestamp": "2026-03-21T00:00:00Z",
+  "infrastructure_status": "search_and_fetch_failed",
+  "excluded": [],
+  "excluded_count": 0,
+  "verification_note": "No events excluded to excluded_events.json. All 31 claims retained in watchlist_candidates.json despite complete search infrastructure failure. Exclusion criteria requires: (1) invalid/delisted ticker, (2) event type mismatch with company business, (3) date outside reasonable windows, or (4) direct evidence of cancellation/completion. While several questionable claims were identified (KYMR - company acquired, RETA - company acquired, CRSP - may refer to already-approved therapy, Bukwang - program ownership questionable), inability to access primary sources precludes definitive exclusion. These claims are flagged in watchlist_candidates.json with appropriate risk flags: 'company_acquired_risk', 'invalid_ticker_risk', 'outdated_claim_risk', 'program_ownership_questionable'. Verification recommendations: KYMR should be excluded if primary source confirms Sanofi acquisition completed; RETA should be excluded if Biogen acquisition removes independent catalyst potential; CRSP claim should be excluded if exa-cel already approved and no new indication; Bukwang claim should be excluded if Besremi not owned by Bukwang. Requires primary source access for definitive exclusion."
+}

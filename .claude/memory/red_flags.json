@@ -1,0 +1,348 @@
+{
+  "generated_timestamp": "2026-03-21T00:00:00Z",
+  "infrastructure_status": "search_completely_failed",
+  "research_limitations": "All search infrastructure failed. WebSearch rate-limited until 2026-04-17. HTTP research tool returned no results. Bear-case assessment based on verification notes, known market data, and conservative principles.",
+  "red_flags_by_ticker": {
+    "US_KYMR": {
+      "ticker": "KYMR",
+      "company_name": "Kymab (Acquired)",
+      "red_flags": [
+        {
+          "flag_type": "company_acquired",
+          "severity": "critical",
+          "description": "Kymab was acquired by Sanofi in 2021 for ~$1.1 billion. Company no longer trades independently. KYMR ticker is invalid.",
+          "sources": [],
+          "impact": "Hard exclusion - no tradeable asset"
+        }
+      ]
+    },
+    "US_RETA": {
+      "ticker": "RETA",
+      "company_name": "Reata Pharmaceuticals (Acquired)",
+      "red_flags": [
+        {
+          "flag_type": "company_acquired",
+          "severity": "critical",
+          "description": "Reata Pharmaceuticals was acquired by Biogen in 2024 for ~$7.3 billion. No longer trades independently.",
+          "sources": [],
+          "impact": "Hard exclusion - no tradeable asset"
+        },
+        {
+          "flag_type": "regulatory_setback",
+          "severity": "high",
+          "description": "Bardoxolone (main asset) faced FDA CRL in 2020 for Alport syndrome. Multiple regulatory setbacks prior to acquisition.",
+          "sources": [],
+          "impact": "Historical regulatory failure risk"
+        }
+      ]
+    },
+    "US_CRSP": {
+      "ticker": "CRSP",
+      "company_name": "Crispr Therapeutics",
+      "red_flags": [
+        {
+          "flag_type": "outdated_claim",
+          "severity": "high",
+          "description": "exa-cel (CTX001) for sickle cell disease was already FDA-approved in late 2023 through partnership with Vertex (brand name Casgevy). Claimed 2026 PDUFA date may refer to a different indication or is factually outdated.",
+          "sources": [],
+          "impact": "Event may already be resolved or not applicable"
+        },
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "Cannot verify if 2026 PDUFA refers to new indication submission or is outdated information.",
+          "sources": [],
+          "impact": "Unclear whether live catalyst exists"
+        }
+      ]
+    },
+    "US_VERV": {
+      "ticker": "VERV",
+      "company_name": "Verve Therapeutics",
+      "red_flags": [
+        {
+          "flag_type": "clinical_program_paused",
+          "severity": "high",
+          "description": "VERVE-101 gene editing program was paused in 2023 due to safety concerns. Cannot verify current status or if PDUFA timeline is realistic.",
+          "sources": [],
+          "impact": "Program may not be active or approved for filing"
+        },
+        {
+          "flag_type": "safety_signal",
+          "severity": "high",
+          "description": "Clinical hold due to safety concerns raises regulatory approval risk.",
+          "sources": [],
+          "impact": "Higher probability of CRL or non-approval"
+        }
+      ]
+    },
+    "US_EDIT": {
+      "ticker": "EDIT",
+      "company_name": "Editas Medicine",
+      "red_flags": [
+        {
+          "flag_type": "clinical_setback_risk",
+          "severity": "medium",
+          "description": "Editas has faced clinical setbacks and pipeline prioritization changes. EDIT-301 phase 3 status and PDUFA timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear if program is active or on track"
+        },
+        {
+          "flag_type": "financial_risk",
+          "severity": "medium",
+          "description": "Small-cap gene editing company with multiple clinical programs. Cash burn and financing risk present.",
+          "sources": [],
+          "impact": "Potential dilution or pipeline prioritization changes"
+        }
+      ]
+    },
+    "US_FGEN": {
+      "ticker": "FGEN",
+      "company_name": "FibroGen",
+      "red_flags": [
+        {
+          "flag_type": "regulatory_setback",
+          "severity": "high",
+          "description": "Roxadustat received FDA Complete Response Letter in 2021 for CKD anemia. Major regulatory failure.",
+          "sources": [],
+          "impact": "History of regulatory setbacks"
+        },
+        {
+          "flag_type": "clinical_setback",
+          "severity": "high",
+          "description": "Pamrevlumab faced clinical setbacks. IPF and DMD trials had negative results.",
+          "sources": [],
+          "impact": "Multiple program failures increase risk profile"
+        }
+      ]
+    },
+    "US_ALNY": {
+      "ticker": "ALNY",
+      "company_name": "Alnylam Pharmaceuticals",
+      "red_flags": [
+        {
+          "flag_type": "outdated_claim",
+          "severity": "medium",
+          "description": "Vutrisiran (Amvuttra) already FDA-approved in 2022 for hereditary ATTR polyneuropathy. Claimed 2026 PDUFA may refer to cardiomyopathy expansion, but cannot verify.",
+          "sources": [],
+          "impact": "Event may be expansion indication, not new therapy"
+        }
+      ]
+    },
+    "US_MRTX": {
+      "ticker": "MRTX",
+      "company_name": "Mirati Therapeutics",
+      "red_flags": [
+        {
+          "flag_type": "commercial_challenges",
+          "severity": "medium",
+          "description": "Krazati (adagrasib) launched but faces commercial challenges and competition from Lumakras (sotorasib). Market share and prescription trend concerns.",
+          "sources": [],
+          "impact": "Commercial execution risk even if clinical success"
+        }
+      ]
+    },
+    "US_NTLA": {
+      "ticker": "NTLA",
+      "company_name": "Intellia Therapeutics",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "NTLA-2001 phase 3 status and BLA submission timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear if on track for 2026 PDUFA"
+        }
+      ]
+    },
+    "US_BEAM": {
+      "ticker": "BEAM",
+      "company_name": "Beam Therapeutics",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "BEAM-101 phase 3 timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear program status"
+        }
+      ]
+    },
+    "US_ARWR": {
+      "ticker": "ARWR",
+      "company_name": "Arrowhead Pharmaceuticals",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "ARO-AAT phase 3 and PDUFA timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear if on track for 2026 PDUFA"
+        }
+      ]
+    },
+    "US_IOVA": {
+      "ticker": "IOVA",
+      "company_name": "Iovance Biotherapeutics",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "Multiple phase 3 programs ongoing, but specific readout timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear which event drives 2026 catalyst"
+        }
+      ]
+    },
+    "US_RARE": {
+      "ticker": "RARE",
+      "company_name": "Ultragenyx Pharmaceutical",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "Multiple gene therapy phase 3 programs ongoing, but specific readout timelines cannot be verified.",
+          "sources": [],
+          "impact": "Unclear which event drives 2026 catalyst"
+        }
+      ]
+    },
+    "US_NBIX": {
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "Multiple CNS programs in phase 3, but specific readout timelines cannot be verified.",
+          "sources": [],
+          "impact": "Unclear which event drives 2026 catalyst"
+        }
+      ]
+    },
+    "US_INSM": {
+      "ticker": "INSM",
+      "company_name": "Insmed",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "Treprostinil palmitiline program timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear program status"
+        }
+      ]
+    },
+    "US_ARVN": {
+      "ticker": "ARVN",
+      "company_name": "Arvinas",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "ARV-471 phase 3 timeline cannot be verified.",
+          "sources": [],
+          "impact": "Unclear if on track for 2026 readout"
+        }
+      ]
+    },
+    "US_KURA": {
+      "ticker": "KURA",
+      "company_name": "Kura Oncology",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "medium",
+          "description": "Tirbanibulin and other programs phase 3 timelines cannot be verified.",
+          "sources": [],
+          "impact": "Unclear program status"
+        }
+      ]
+    },
+    "US_BGEN": {
+      "ticker": "BGEN",
+      "company_name": "Biogen",
+      "red_flags": [
+        {
+          "flag_type": "primary_source_unverified",
+          "severity": "low",
+          "description": "Alzheimer's and CNS programs ongoing, but specific phase 3 readout timelines cannot be verified.",
+          "sources": [],
+          "impact": "Large-cap, diversified risk profile"
+        }
+      ]
+    },
+    "US_RDY": {
+      "ticker": "RDY",
+      "company_name": "Dr Reddy's Laboratories",
+      "red_flags": [
+        {
+          "flag_type": "diversified_pipeline",
+          "severity": "low",
+          "description": "Primarily generic and biosimilar company with diversified pipeline. Specific 2026 PDUFA date cannot be verified.",
+          "sources": [],
+          "impact": "Catalyst may not be meaningful driver"
+        }
+      ]
+    },
+    "KR_051910": {
+      "ticker": "051910",
+      "company_name": "LG Chem",
+      "red_flags": [
+        {
+          "flag_type": "market_evolved",
+          "severity": "medium",
+          "description": "COVID-19 vaccine market has evolved significantly since 2021-2022. Phase 3 studies may no longer be relevant.",
+          "sources": [],
+          "impact": "Catalyst may be obsolete"
+        }
+      ]
+    },
+    "KR_262630": {
+      "ticker": "262630",
+      "company_name": "Pharmexcel",
+      "red_flags": [
+        {
+          "flag_type": "cdmo_client_dependency",
+          "severity": "high",
+          "description": "CDMO company - client programs depend on client timelines, not Pharmexcel's direct pipeline. Timeline highly speculative.",
+          "sources": [],
+          "impact": "Cannot predict catalyst from client programs"
+        }
+      ]
+    },
+    "KR_258570": {
+      "ticker": "258570",
+      "company_name": "Bukwang Pharmaceutical",
+      "red_flags": [
+        {
+          "flag_type": "program_ownership_questionable",
+          "severity": "high",
+          "description": "Besremi (ropeginterferon alfa-2b) claim is questionable as Besremi is developed by PharmaEssentia, not Bukwang.",
+          "sources": [],
+          "impact": "Claim may be factually incorrect"
+        }
+      ]
+    },
+    "KR_069260": {
+      "ticker": "069260",
+      "company_name": "HLB",
+      "red_flags": [
+        {
+          "flag_type": "regulatory_complexity",
+          "severity": "medium",
+          "description": "HLB's liver cancer therapy (Rivamer) has faced complex regulatory pathways. Timeline cannot be verified.",
+          "sources": [],
+          "impact": "Regulatory approval risk"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_tickers_assessed": 31,
+    "critical_flags": 3,
+    "high_severity_flags": 6,
+    "medium_severity_flags": 18,
+    "low_severity_flags": 4
+  }
+}

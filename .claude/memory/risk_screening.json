@@ -1,0 +1,417 @@
+{
+  "generated_timestamp": "2026-03-21T00:00:00Z",
+  "screening_status": "conservative_estimation",
+  "methodology": "Risk assessment based on available market data, company size, platform maturity, and bear-case flags. Cash runway estimates use conservative assumptions due to search limitations.",
+  "candidates": [
+    {
+      "ticker": "CRSP",
+      "name": "Crispr Therapeutics",
+      "cash_runway_months": 18,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.35,
+      "risk_flags": [
+        "outdated_claim",
+        "primary_source_unverified"
+      ],
+      "cash_position": "Estimated $500-700M",
+      "burn_rate": "Moderate - commercial-stage gene editing",
+      "financing_notes": "Partnership with Vertex provides non-dilutive funding for exa-cel",
+      "evidence": "Large-cap gene editing leader with approved product. Platform validation provides financing flexibility.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "BEAM",
+      "name": "Beam Therapeutics",
+      "cash_runway_months": 15,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.40,
+      "risk_flags": [
+        "primary_source_unverified",
+        "phase_3_unverified"
+      ],
+      "cash_position": "Estimated $400-600M",
+      "burn_rate": "Moderate - clinical-stage base editing",
+      "financing_notes": "Multiple partnerships provide non-dilutive funding",
+      "evidence": "Mid-cap base editing platform with partnerships. Clinical execution risk.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "ARWR",
+      "name": "Arrowhead Pharmaceuticals",
+      "cash_runway_months": 20,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.25,
+      "risk_flags": [
+        "primary_source_unverified",
+        "rare_disease_market"
+      ],
+      "cash_position": "Estimated $600-800M",
+      "burn_rate": "Low to moderate - RNAi platform with partnerships",
+      "financing_notes": "Multiple partnerships with J&J, GSK provide non-dilutive capital",
+      "evidence": "Strong RNAi platform with multiple partnerships and rare disease focus.",
+      "recommendation": "core"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "cash_runway_months": 24,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.25,
+      "risk_flags": [
+        "outdated_claim",
+        "expansion_indication"
+      ],
+      "cash_position": "Estimated $1.5-2B",
+      "burn_rate": "Low - commercial-stage RNAi leader",
+      "financing_notes": "Multiple approved products generate revenue",
+      "evidence": "Large-cap commercial RNAi leader with strong balance sheet.",
+      "recommendation": "core"
+    },
+    {
+      "ticker": "IOVA",
+      "name": "Iovance Biotherapeutics",
+      "cash_runway_months": 12,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.45,
+      "risk_flags": [
+        "primary_source_unverified",
+        "multiple_programs_unspecified",
+        "low_share_price"
+      ],
+      "cash_position": "Estimated $200-400M",
+      "burn_rate": "High - commercial-stage TIL therapy",
+      "financing_notes": "Amtagvi launched but commercial ramp expensive. May need financing 2026.",
+      "evidence": "Commercial-stage TIL therapy with high burn rate and low stock price.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "RARE",
+      "name": "Ultragenyx Pharmaceutical",
+      "cash_runway_months": 18,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.35,
+      "risk_flags": [
+        "primary_source_unverified",
+        "multiple_programs"
+      ],
+      "cash_position": "Estimated $400-600M",
+      "burn_rate": "Moderate - commercial and clinical rare disease",
+      "financing_notes": "Multiple approved products provide revenue but gene therapy expensive",
+      "evidence": "Commercial rare disease company with gene therapy pipeline.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences",
+      "cash_runway_months": 24,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.25,
+      "risk_flags": [
+        "primary_source_unverified",
+        "multiple_programs"
+      ],
+      "cash_position": "Estimated $800M-1B",
+      "burn_rate": "Low - commercial CNS company",
+      "financing_notes": "Ingrezza generates steady revenue",
+      "evidence": "Commercial CNS company with strong balance sheet and product revenue.",
+      "recommendation": "core"
+    },
+    {
+      "ticker": "INSM",
+      "name": "Insmed",
+      "cash_runway_months": 15,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.35,
+      "risk_flags": [
+        "primary_source_unverified",
+        "respiratory_therapy_risk"
+      ],
+      "cash_position": "Estimated $400-600M",
+      "burn_rate": "Moderate - commercial respiratory",
+      "financing_notes": "Arikayce provides revenue but respiratory pipeline expensive",
+      "evidence": "Commercial respiratory company with moderate runway.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "ARVN",
+      "name": "Arvinas",
+      "cash_runway_months": 14,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.40,
+      "risk_flags": [
+        "primary_source_unverified",
+        "novel_mechanism_risk"
+      ],
+      "cash_position": "Estimated $300-500M",
+      "burn_rate": "Moderate to high - clinical-stage PROTAC",
+      "financing_notes": "Partnership with Pfizer provides non-dilutive funding for ARV-471",
+      "evidence": "Clinical PROTAC pioneer with Pfizer partnership. Novel mechanism risk.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "EDIT",
+      "name": "Editas Medicine",
+      "cash_runway_months": 10,
+      "financing_risk": "high",
+      "price_position_risk": "medium",
+      "tradability_risk": "high",
+      "overall_risk_score": 0.65,
+      "risk_flags": [
+        "primary_source_unverified",
+        "clinical_setback_risk",
+        "financial_risk",
+        "cash_runway_critical"
+      ],
+      "cash_position": "Estimated $100-200M",
+      "burn_rate": "High - small-cap gene editing",
+      "financing_notes": "Has faced clinical setbacks. Likely needs financing in 2026.",
+      "evidence": "Small-cap with execution challenges and critical runway. High dilution risk.",
+      "recommendation": "exclude"
+    },
+    {
+      "ticker": "006280.KS",
+      "name": "Samsung Bioepis",
+      "cash_runway_months": 36,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.35,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified",
+        "korean_market_access"
+      ],
+      "cash_position": "Estimated strong - Samsung subsidiary",
+      "burn_rate": "Low - biosimilar subsidiary of Samsung",
+      "financing_notes": "Backed by Samsung Group. Minimal financing risk.",
+      "evidence": "Samsung subsidiary with strong corporate backing. Korean market access complexity.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "068270.KS",
+      "name": "Celltrion",
+      "cash_runway_months": 36,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.25,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified"
+      ],
+      "cash_position": "Estimated strong - major Korean biosimilar",
+      "burn_rate": "Low - major biosimilar producer",
+      "financing_notes": "Commercial biosimilar leader with strong revenue",
+      "evidence": "Major Korean biosimilar leader with strong financial position.",
+      "recommendation": "core"
+    },
+    {
+      "ticker": "086890.KS",
+      "name": "SK Bioscience",
+      "cash_runway_months": 24,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.40,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified",
+        "korean_market_access",
+        "vaccine_market_dynamics"
+      ],
+      "cash_position": "Estimated moderate - SK Group subsidiary",
+      "burn_rate": "Low to moderate - vaccine producer",
+      "financing_notes": "SK Group subsidiary provides backing",
+      "evidence": "Vaccine company with SK Group backing. Korean market access required.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "207940.KS",
+      "name": "GC Pharma",
+      "cash_runway_months": 18,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.45,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified",
+        "korean_market_access",
+        "smaller_market_cap"
+      ],
+      "cash_position": "Estimated $100-200M",
+      "burn_rate": "Moderate - Korean biologics",
+      "financing_notes": "Smaller Korean biologics company",
+      "evidence": "Smaller Korean biologics with moderate runway and market access complexity.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "069260.KS",
+      "name": "HLB",
+      "cash_runway_months": 12,
+      "financing_risk": "high",
+      "price_position_risk": "high",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.70,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified",
+        "regulatory_complexity_risk",
+        "near_52w_high",
+        "expensive_valuation"
+      ],
+      "cash_position": "Estimated $100-200M",
+      "burn_rate": "High - Korean oncology",
+      "financing_notes": "Liver cancer therapy with complex regulatory history",
+      "evidence": "Trading near 52-week high with regulatory complexity. Expensive entry.",
+      "recommendation": "exclude"
+    },
+    {
+      "ticker": "214320.KS",
+      "name": "Hugel",
+      "cash_runway_months": 24,
+      "financing_risk": "low",
+      "price_position_risk": "medium",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.45,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified",
+        "korean_market_access",
+        "near_52w_high"
+      ],
+      "cash_position": "Estimated moderate - Korean aesthetic medicine",
+      "burn_rate": "Low - aesthetic medicine commercial",
+      "financing_notes": "Commercial aesthetic medicine company",
+      "evidence": "Korean aesthetic medicine company trading near highs. Moderate risk.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "950130.KQ",
+      "name": "Pharmicell",
+      "cash_runway_months": 12,
+      "financing_risk": "high",
+      "price_position_risk": "low",
+      "tradability_risk": "medium",
+      "overall_risk_score": 0.55,
+      "risk_flags": [
+        "primary_source_unverified",
+        "korean_source_unverified",
+        "korean_market_access",
+        "cell_therapy_complexity",
+        "kosdaq_market"
+      ],
+      "cash_position": "Estimated $50-100M",
+      "burn_rate": "High - Korean cell therapy",
+      "financing_notes": "Small KOSDAQ cell therapy company",
+      "evidence": "Small Korean cell therapy company with limited runway and KOSDAQ listing.",
+      "recommendation": "exclude"
+    },
+    {
+      "ticker": "NTLA",
+      "name": "Intellia Therapeutics",
+      "cash_runway_months": 16,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.35,
+      "risk_flags": [
+        "primary_source_unverified",
+        "competitive_landscape"
+      ],
+      "cash_position": "Estimated $400-600M",
+      "burn_rate": "Moderate - LNP gene editing",
+      "financing_notes": "Partnership with Regeneron provides non-dilutive funding",
+      "evidence": "LNP gene editing leader with Regeneron partnership. Strong platform.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "KURA",
+      "name": "Kura Oncology",
+      "cash_runway_months": 14,
+      "financing_risk": "medium",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.40,
+      "risk_flags": [
+        "primary_source_unverified",
+        "oncology_trial_risk"
+      ],
+      "cash_position": "Estimated $150-250M",
+      "burn_rate": "Moderate to high - clinical oncology",
+      "financing_notes": "Small-mid cap oncology with multiple programs",
+      "evidence": "Clinical oncology company with moderate runway.",
+      "recommendation": "watchlist"
+    },
+    {
+      "ticker": "RDY",
+      "name": "Dr Reddy's Laboratories",
+      "cash_runway_months": 36,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.20,
+      "risk_flags": [
+        "primary_source_unverified",
+        "diversified_business_lower_volatility"
+      ],
+      "cash_position": "Estimated $500M-1B",
+      "burn_rate": "Low - generic/biosimilar producer",
+      "financing_notes": "Diversified generic/biosimilar with global revenue",
+      "evidence": "Large Indian generic/biosimilar company with strong balance sheet.",
+      "recommendation": "core"
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "cash_runway_months": 36,
+      "financing_risk": "low",
+      "price_position_risk": "low",
+      "tradability_risk": "low",
+      "overall_risk_score": 0.20,
+      "risk_flags": [
+        "primary_source_unverified",
+        "diversified_large_cap_lower_catalyst_impact"
+      ],
+      "cash_position": "Estimated $3-5B",
+      "burn_rate": "Low - large-cap biotech",
+      "financing_notes": "Large-cap with multiple approved products and strong revenue",
+      "evidence": "Large-cap biotech with strong balance sheet. Low volatility/catalyst impact.",
+      "recommendation": "watchlist"
+    }
+  ],
+  "summary": {
+    "total_candidates": 21,
+    "core_recommendations": 5,
+    "watchlist_recommendations": 13,
+    "exclusions": 3,
+    "excluded_list": [
+      "EDIT",
+      "069260.KS",
+      "950130.KQ"
+    ],
+    "exclusion_reasons": {
+      "EDIT": "Critical runway <12 months, high dilution risk, clinical setbacks",
+      "069260.KS": "Near 52-week high, expensive valuation, regulatory complexity",
+      "950130.KQ": "Small KOSDAQ cell therapy with limited runway and high risk"
+    }
+  }
+}

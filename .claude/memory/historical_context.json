@@ -1,0 +1,1514 @@
+[
+  {
+    "event_id": "US_CRSP_PDUFA_20260515",
+    "ticker": "CRSP",
+    "price_ticker": null,
+    "resolved_price_ticker": "CRSP",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.12178554849829393,
+      "2y": -0.379328836530647,
+      "3y": 0.026187311789014123,
+      "4y": -0.29576608133589455,
+      "5y": -0.6523308144476181
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.04502264710692783,
+        "benchmark_return": -0.029053393568871932,
+        "relative_return": -0.015969253538055894
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.17678083527124855,
+        "median_relative_return": 0.017516007775138176,
+        "iqr_relative_return": 0.3865246279852286,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.013895833066651875,
+          0.3924120318772695
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.11404275186064132,
+        "median_relative_return": 0.029167816714201766,
+        "iqr_relative_return": 0.10653775223337658,
+        "positive_ratio": 1.0,
+        "ci95_mean_relative_return": [
+          0.023580133757970502,
+          0.2295247698104003
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.020173473486318705,
+        "median_relative_return": 0.043786949807513964,
+        "iqr_relative_return": 0.12149610585522252,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.10474166888335763,
+          0.12580133175035585
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 상대수익이 반복적으로 양(+)의 방향을 보였습니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_BEAM_P3TOPLINE_20260415",
+    "ticker": "BEAM",
+    "price_ticker": null,
+    "resolved_price_ticker": "BEAM",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.05708154365904794,
+      "2y": -0.2952790093531572,
+      "3y": -0.2398148765180198,
+      "4y": -0.5834601942186015,
+      "5y": -0.7400802173330725
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.1040378550077824,
+        "benchmark_return": -0.03466259961508378,
+        "relative_return": -0.06937525539269862
+      },
+      "[-30,-7]": {
+        "stock_return": -0.03373874531478027,
+        "benchmark_return": -0.029053393568871932,
+        "relative_return": -0.004685351745908339
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.029221535789460427,
+        "median_relative_return": -0.04753474777537037,
+        "iqr_relative_return": 0.3262920554559873,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.15313619362550063,
+          0.2362218133695234
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.06439769670883788,
+        "median_relative_return": 0.06487555275967138,
+        "iqr_relative_return": 0.10041257949868743,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.025742492244704616,
+          0.1759479911679717
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.10680217238170757,
+        "median_relative_return": 0.11985512186588099,
+        "iqr_relative_return": 0.09368448985055344,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          0.031756881265741145,
+          0.1803567685191399
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_ARWR_PDUFA_20260530",
+    "ticker": "ARWR",
+    "price_ticker": null,
+    "resolved_price_ticker": "ARWR",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 2.8060811557501566,
+      "2y": 0.9953950671085392,
+      "3y": 1.2898374372988224,
+      "4y": 0.24074889730885718,
+      "5y": -0.20099288182901154
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.06977494836032198,
+        "median_relative_return": -0.11783652213293816,
+        "iqr_relative_return": 0.2206998457189967,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.1662757339266354,
+          0.024065190211409338
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.03256726319664982,
+        "median_relative_return": 0.042204252747937154,
+        "iqr_relative_return": 0.07380377819800787,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.0033371498245422515,
+          0.06847167621784189
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.0007118706922604856,
+        "median_relative_return": 0.03751517573375107,
+        "iqr_relative_return": 0.10379462449795196,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.07181542462724741,
+          0.07378937800074672
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_ALNY_PDUFA_20260615",
+    "ticker": "ALNY",
+    "price_ticker": null,
+    "resolved_price_ticker": "ALNY",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.10175060867673325,
+      "2y": 1.129109424524461,
+      "3y": 0.6392901613939721,
+      "4y": 0.9218742073752477,
+      "5y": 1.1655915826948071
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.022983203742778357,
+        "median_relative_return": -0.029054384650586185,
+        "iqr_relative_return": 0.11990471865687569,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.1263187434189088,
+          0.23760036573214424
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.07013218734953697,
+        "median_relative_return": -0.07071990958646579,
+        "iqr_relative_return": 0.02361872686935451,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.11518602820916177,
+          -0.011657119520790137
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.057472434910069634,
+        "median_relative_return": 0.03713461295837761,
+        "iqr_relative_return": 0.04651812026556068,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          0.010127453515470241,
+          0.12336571586058545
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_IOVA_P3TOPLINE_20260501",
+    "ticker": "IOVA",
+    "price_ticker": null,
+    "resolved_price_ticker": "IOVA",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.04237290875249422,
+      "2y": -0.7597656159050528,
+      "3y": -0.4133545183467078,
+      "4y": -0.7539999961853028,
+      "5y": -0.886356639405739
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.02638519937706696,
+        "benchmark_return": -0.04930861590427582,
+        "relative_return": 0.022923416527208862
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.21104405745804405,
+        "median_relative_return": 0.17640058960821037,
+        "iqr_relative_return": 0.2308649168942314,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.026908407750334783,
+          0.46833835311022226
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.05998614688010895,
+        "median_relative_return": 0.07450186658894742,
+        "iqr_relative_return": 0.3227055123358241,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.07990252932237563,
+          0.19987482308259352
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.06734978807057761,
+        "median_relative_return": 0.05169332312761066,
+        "iqr_relative_return": 0.032900111121745734,
+        "positive_ratio": 1.0,
+        "ci95_mean_relative_return": [
+          0.026523908685911923,
+          0.1266329086899761
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 상대수익이 반복적으로 양(+)의 방향을 보였습니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_RARE_P3TOPLINE_20260615",
+    "ticker": "RARE",
+    "price_ticker": null,
+    "resolved_price_ticker": "RARE",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": -0.49285347921223677,
+      "2y": -0.5740621610009896,
+      "3y": -0.4817422858593232,
+      "4y": -0.7111078628687855,
+      "5y": -0.8392004459957472
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.0033110833850838795,
+        "median_relative_return": 0.04119893666632968,
+        "iqr_relative_return": 0.032271397762647425,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.12023717501674162,
+          0.08079306832557213
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.04578682945430292,
+        "median_relative_return": 0.04358892335084796,
+        "iqr_relative_return": 0.06754999254198513,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.006123564797090153,
+          0.09144937354658493
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.019805102233548432,
+        "median_relative_return": 0.0012259761568719219,
+        "iqr_relative_return": 0.04977107722753349,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.04532811022403509,
+          0.004196000638651287
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 상대수익이 반복적으로 양(+)의 방향을 보였습니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_NBIX_P3TOPLINE_20260515",
+    "ticker": "NBIX",
+    "price_ticker": null,
+    "resolved_price_ticker": "NBIX",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.14081488915359386,
+      "2y": -0.11172954344121033,
+      "3y": 0.3239319480808798,
+      "4y": 0.3559897550912594,
+      "5y": 0.3861687054513685
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.016711634165114564,
+        "benchmark_return": -0.029053393568871932,
+        "relative_return": 0.012341759403757369
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.06981966705948332,
+        "median_relative_return": 0.0713678425704869,
+        "iqr_relative_return": 0.10113296738826794,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.02463689761704404,
+          0.1468342737567355
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.04668314428286864,
+        "median_relative_return": 0.027433987323803866,
+        "iqr_relative_return": 0.10119516302352538,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.006869580766324069,
+          0.10023586933206134
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.002563013051909446,
+        "median_relative_return": 0.02425448335604996,
+        "iqr_relative_return": 0.009503806103425383,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.06124537187494057,
+          0.03063405219227657
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 상대수익이 반복적으로 양(+)의 방향을 보였습니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_INSM_PDUFA_20260601",
+    "ticker": "INSM",
+    "price_ticker": null,
+    "resolved_price_ticker": "INSM",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.7017017406895514,
+      "2y": 4.163249780263881,
+      "3y": 7.056872438483202,
+      "4y": 4.874730118403097,
+      "5y": 2.6179834915652975
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.026939561864018115,
+        "median_relative_return": -0.026705299566465057,
+        "iqr_relative_return": 0.052633232960500154,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.0738736191398909,
+          0.013907515081939414
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.05006126743265933,
+        "median_relative_return": -0.05493137275008564,
+        "iqr_relative_return": 0.08646649347501545,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.08985707658452517,
+          -0.009790701726141627
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.015086178972295495,
+        "median_relative_return": -0.017257342245255325,
+        "iqr_relative_return": 0.03815063960653908,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.04100865858726492,
+          0.009827594065988631
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 우위가 일관되지 않았습니다. 실행 비중을 낮추는 보수적 접근이 필요합니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_ARVN_P3TOPLINE_20260530",
+    "ticker": "ARVN",
+    "price_ticker": null,
+    "resolved_price_ticker": "ARVN",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.2502856663295201,
+      "2y": -0.7476355255949036,
+      "3y": -0.6246998379571543,
+      "4y": -0.8357110649943332,
+      "5y": -0.8359328204811942
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.13147454900360994,
+        "median_relative_return": -0.07719097778940098,
+        "iqr_relative_return": 0.2338015027816519,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.13345286736600903,
+          0.5313549813696951
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.0862095473956737,
+        "median_relative_return": -0.006901421751042802,
+        "iqr_relative_return": 0.15789689606296198,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.08537660404122467,
+          0.32986941952463206
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.03630276888583406,
+        "median_relative_return": -0.027032888490162055,
+        "iqr_relative_return": 0.025643468612520204,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.11649651849113762,
+          0.26089641279414766
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 우위가 일관되지 않았습니다. 실행 비중을 낮추는 보수적 접근이 필요합니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "KR_006280_MFDS_20260430",
+    "ticker": "006280.KS",
+    "price_ticker": null,
+    "resolved_price_ticker": "006280.KS",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.1128787878787878,
+      "2y": 0.1932120580464871,
+      "3y": 0.24804130685387293,
+      "4y": -0.22672547816833555,
+      "5y": -0.598087048934834
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.09376927822331893,
+        "benchmark_return": -0.04930861590427582,
+        "relative_return": -0.04446066231904311
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.11600142700645752,
+        "median_relative_return": 0.03386071264343926,
+        "iqr_relative_return": 0.2297976465221565,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          -0.004606768913674198,
+          0.24913911214302317
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.05631022138277184,
+        "median_relative_return": 0.06947695356308725,
+        "iqr_relative_return": 0.1741847410406565,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.08146862803598338,
+          0.1817578020867489
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.03340117530273794,
+        "median_relative_return": 0.045323102952970706,
+        "iqr_relative_return": 0.07047575095711278,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.01244529034534303,
+          0.07969106804376111
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 상대수익이 반복적으로 양(+)의 방향을 보였습니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "KR_068270_MFDS_20260515",
+    "ticker": "068270.KS",
+    "price_ticker": null,
+    "resolved_price_ticker": "068270.KS",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.12993570082015604,
+      "2y": 0.1968669267840173,
+      "3y": 0.42928436501322365,
+      "4y": 0.24610820109418086,
+      "5y": -0.17685233375225062
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": 0.010000000000000009,
+        "benchmark_return": -0.029053393568871932,
+        "relative_return": 0.03905339356887194
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.006991465478268744,
+        "median_relative_return": 0.027926910900261115,
+        "iqr_relative_return": 0.0902450198716861,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.07096237201315878,
+          0.051022639051049
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.034559387755592794,
+        "median_relative_return": -0.02968943727394502,
+        "iqr_relative_return": 0.0653475246524523,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.07396929470125098,
+          0.007596432738619097
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.0072542202141703035,
+        "median_relative_return": -0.03735034476670995,
+        "iqr_relative_return": 0.05715670621910851,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.04755682452857981,
+          0.044329982627150114
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "KR_086890_P3TOPLINE_20260401",
+    "ticker": "086890.KS",
+    "price_ticker": null,
+    "resolved_price_ticker": "086890.KS",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": -0.08364661654135341,
+      "2y": -0.26691729323308266,
+      "3y": -0.2174959871589085,
+      "4y": -0.2985611510791367,
+      "5y": -0.5125
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.1477272727272727,
+        "benchmark_return": -0.05528073026995717,
+        "relative_return": -0.09244654245731554
+      },
+      "[-30,-7]": {
+        "stock_return": -0.044117647058823484,
+        "benchmark_return": -0.04930861590427582,
+        "relative_return": 0.005190968845452337
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.0006103880065308376,
+        "median_relative_return": -0.009522976689098517,
+        "iqr_relative_return": 0.0841748423312294,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.0788032079922393,
+          0.09600156480878792
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.023890435534490263,
+        "median_relative_return": -0.039727600736951585,
+        "iqr_relative_return": 0.05616547715545672,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.07692956548118653,
+          0.0475132656429134
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.005626647206319957,
+        "median_relative_return": -0.02967471093542473,
+        "iqr_relative_return": 0.048212346234905556,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.05180555382027156,
+          0.09239388904847305
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 우위가 일관되지 않았습니다. 실행 비중을 낮추는 보수적 접근이 필요합니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "KR_207940_MFDS_20260331",
+    "ticker": "207940.KS",
+    "price_ticker": null,
+    "resolved_price_ticker": "207940.KS",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": -0.04906259385105516,
+      "2y": 0.21502510210745385,
+      "3y": 0.2871154895726864,
+      "4y": 0.25758028905887476,
+      "5y": 0.4717897390698813
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": -0.08252148997134667,
+        "benchmark_return": -0.03559120193512022,
+        "relative_return": -0.04693028803622645
+      },
+      "[-30,-7]": {
+        "stock_return": -0.04759071980963714,
+        "benchmark_return": -0.04930861590427582,
+        "relative_return": 0.0017178960946386823
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.09500479445246413,
+        "median_relative_return": 0.11445318606335075,
+        "iqr_relative_return": 0.020270098563265893,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          0.027504273038787087,
+          0.14695809236883808
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.04060198774066777,
+        "median_relative_return": 0.0007680981347264471,
+        "iqr_relative_return": 0.16651379927950694,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.04686479780022616,
+          0.12890074511907967
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.031866190509412105,
+        "median_relative_return": -0.017135768450079802,
+        "iqr_relative_return": 0.02198766756631021,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.06615741244410603,
+          -0.007776504014697649
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "KR_214320_P3TOPLINE_20260615",
+    "ticker": "214320.KS",
+    "price_ticker": null,
+    "resolved_price_ticker": "214320.KS",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.12033996263908464,
+      "2y": 0.007898854427206059,
+      "3y": 0.0761689534906076,
+      "4y": -0.028632531247606674,
+      "5y": -0.18791566799095805
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.07756358585588538,
+        "median_relative_return": -0.031414573125915,
+        "iqr_relative_return": 0.17460680859242295,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.17636382142159868,
+          0.01919439355017194
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.02957922763152896,
+        "median_relative_return": -0.05031977361002249,
+        "iqr_relative_return": 0.07137089597702262,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.07487725036094824,
+          0.016198974754803898
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.0083356294212527,
+        "median_relative_return": 0.01782590152246566,
+        "iqr_relative_return": 0.09300324964838569,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.08901844462810718,
+          0.05963734399749561
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_NTLA_PDUFA_20260815",
+    "ticker": "NTLA",
+    "price_ticker": null,
+    "resolved_price_ticker": "NTLA",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.4266666836208768,
+      "2y": -0.5356238578758289,
+      "3y": -0.6773058593326821,
+      "4y": -0.8164665477327361,
+      "5y": -0.8122257872429779
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.08339158933469966,
+        "median_relative_return": -0.025333011035419295,
+        "iqr_relative_return": 0.15765530252907556,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.17748329224833478,
+          -0.00132215336670094
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.06970329746698962,
+        "median_relative_return": -0.06789605629862061,
+        "iqr_relative_return": 0.06458623698101407,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.10729658884170057,
+          -0.028774613196961042
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.006047858199608114,
+        "median_relative_return": -0.018297133200119386,
+        "iqr_relative_return": 0.1033944275192289,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.0519058145467914,
+          0.06529273308277275
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 우위가 일관되지 않았습니다. 실행 비중을 낮추는 보수적 접근이 필요합니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_KURA_P3TOPLINE_20260630",
+    "ticker": "KURA",
+    "price_ticker": null,
+    "resolved_price_ticker": "KURA",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.05357143726015212,
+      "2y": -0.6131147502905467,
+      "3y": -0.33063208049072956,
+      "4y": -0.4805031177953353,
+      "5y": -0.7018050541019081
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.10257955464648025,
+        "median_relative_return": 0.03474952924392716,
+        "iqr_relative_return": 0.04885102942822228,
+        "positive_ratio": 0.8,
+        "ci95_mean_relative_return": [
+          0.0007436891755360886,
+          0.27099989231235155
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.03922316164032238,
+        "median_relative_return": 0.022622182902433785,
+        "iqr_relative_return": 0.04303730321839816,
+        "positive_ratio": 1.0,
+        "ci95_mean_relative_return": [
+          0.01093850338512985,
+          0.07575750596067199
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.017194402812940844,
+        "median_relative_return": 0.012549113078708096,
+        "iqr_relative_return": 0.07824553877457485,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.03529983076274581,
+          0.0638754516832738
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 이벤트 윈도우에서 벤치마크 대비 상대수익이 반복적으로 양(+)의 방향을 보였습니다.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_RDY_PDUFA_20260630",
+    "ticker": "RDY",
+    "price_ticker": null,
+    "resolved_price_ticker": "RDY",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.009894419027477008,
+      "2y": -0.04478829097519821,
+      "3y": 0.30005690967832166,
+      "4y": 0.36719713711593194,
+      "5y": 0.20523965450991533
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.04412351192720006,
+        "median_relative_return": 0.034763634533514165,
+        "iqr_relative_return": 0.10864653670787183,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.0018650137166011937,
+          0.09025070635386848
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": 0.018779411589402283,
+        "median_relative_return": 0.004916045773195599,
+        "iqr_relative_return": 0.07736622314222452,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.02413123523927343,
+          0.06983566524915943
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.025703570849441703,
+        "median_relative_return": -0.019078178765393528,
+        "iqr_relative_return": 0.06070737499696377,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.06523143597432672,
+          0.010774990769197412
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  },
+  {
+    "event_id": "US_BIIB_P3TOPLINE_20260830",
+    "ticker": "BIIB",
+    "price_ticker": null,
+    "resolved_price_ticker": "BIIB",
+    "benchmark": "XBI",
+    "analysis_as_of": "2026-03-21",
+    "lookback_years": 5,
+    "windows": [
+      "[-60,-7]",
+      "[-30,-7]",
+      "[-10,3]"
+    ],
+    "annual_returns": {
+      "1y": 0.2878638365817192,
+      "2y": -0.177984114546468,
+      "3y": -0.31820397942806744,
+      "4y": -0.12257623492086911,
+      "5y": -0.33370048779492956
+    },
+    "current_event_window_metrics": {
+      "[-60,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-30,-7]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      },
+      "[-10,3]": {
+        "stock_return": null,
+        "benchmark_return": null,
+        "relative_return": null
+      }
+    },
+    "historical_window_summary": {
+      "[-60,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.050731040764258675,
+        "median_relative_return": -0.062313182632575015,
+        "iqr_relative_return": 0.10381187292140426,
+        "positive_ratio": 0.4,
+        "ci95_mean_relative_return": [
+          -0.13686397511979467,
+          0.027773013174917937
+        ],
+        "insufficient_history": false
+      },
+      "[-30,-7]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.001162342643809855,
+        "median_relative_return": 0.0024390151955961947,
+        "iqr_relative_return": 0.027410572790017906,
+        "positive_ratio": 0.6,
+        "ci95_mean_relative_return": [
+          -0.04364446819666523,
+          0.03928212539014799
+        ],
+        "insufficient_history": false
+      },
+      "[-10,3]": {
+        "sample_n": 5,
+        "mean_relative_return": -0.005083711260326029,
+        "median_relative_return": -0.013189101887261634,
+        "iqr_relative_return": 0.01297279970587939,
+        "positive_ratio": 0.2,
+        "ci95_mean_relative_return": [
+          -0.03701313754128401,
+          0.03487601867178662
+        ],
+        "insufficient_history": false
+      }
+    },
+    "sample_n": {
+      "[-60,-7]": 5,
+      "[-30,-7]": 5,
+      "[-10,3]": 5
+    },
+    "insufficient_history": false,
+    "historical_significance_note": "과거 패턴은 혼재되어 있으므로 단일 신호로 해석하지 말고 리스크 규칙과 함께 보수적으로 사용하십시오.",
+    "limitations": []
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Agent",
+      "WebSearch",
+      "WebFetch",
+      "Bash(python .claude/hooks/clean_memory.py*)",
+      "Bash(python3 .claude/hooks/clean_memory.py*)",
+      "Bash(python tools/market_calc.py *)",
+      "Bash(python3 tools/market_calc.py *)",
+      "Bash(python tools/tradability_calc.py *)",
+      "Bash(python3 tools/tradability_calc.py *)",
+      "Bash(python tools/event_study.py *)",
+      "Bash(python3 tools/event_study.py *)",
+      "Bash(python tools/rank_candidates.py *)",
+      "Bash(python3 tools/rank_candidates.py *)",
+      "Bash(python tools/report_finalizer.py *)",
+      "Bash(python3 tools/report_finalizer.py *)",
+      "Bash(python tools/report_audit.py *)",
+      "Bash(python3 tools/report_audit.py *)",
+      "Bash(python tools/http_research.py *)",
+      "Bash(python3 tools/http_research.py *)",
+      "Bash(date *)",
+      "Bash(mkdir -p outputs*)",
+      "Bash(ls *)"
+    ],
+    "deny": [
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ],
+    "additionalDirectories": [
+      "./outputs",
+      "./tools",
+      "./.claude"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "allowUnsandboxedCommands": false,
+    "filesystem": {
+      "allowWrite": [
+        "./outputs",
+        "./.claude/memory",
+        "./tools"
+      ],
+      "denyRead": [
+        "./.env",
+        "./.env.*",
+        "./secrets"
+      ]
+    },
+    "network": {
+      "allowedDomains": [
+        "*.yahoo.com",
+        "finance.yahoo.com",
+        "query1.finance.yahoo.com",
+        "query2.finance.yahoo.com",
+        "efts.sec.gov",
+        "www.sec.gov",
+        "*.sec.gov",
+        "www.fda.gov",
+        "*.fda.gov",
+        "clinicaltrials.gov",
+        "classic.clinicaltrials.gov",
+        "*.clinicaltrials.gov",
+        "html.duckduckgo.com",
+        "lite.duckduckgo.com",
+        "duckduckgo.com",
+        "*.nih.gov",
+        "*.gov",
+        "*.go.kr",
+        "*.or.kr",
+        "*.re.kr",
+        "*.krx.co.kr",
+        "*.co.kr",
+        "*.kr",
+        "*.com",
+        "*.net",
+        "*.org",
+        "*.io"
+      ]
+    }
+  }
+}

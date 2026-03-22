@@ -1,0 +1,222 @@
+{
+  "generated_on": "2026-03-21",
+  "query_families": [
+    "FDA PDUFA calendar 2026 biotech",
+    "FDA PDUFA target date 2026 May June July August September",
+    "FDA advisory committee 2026 biotech calendar",
+    "biotech phase 3 topline data 2026 expected",
+    "biotech NDA BLA approval expected 2026",
+    "MFDS approval biotech 2026 Korea",
+    "식약처 품목허가 2026 바이오",
+    "한국 바이오 임상3상 결과 2026 톱라인",
+    "KOSDAQ biotech phase 3 2026 results",
+    "site:sec.gov PDUFA 2026 biotech",
+    "FDA AdCom meeting 2026 oncology rare disease",
+    "biotech catalyst calendar 2026 RBC Wedbush",
+    "Celltrion MFDS 2026",
+    "Samsung Bioepis regulatory approval 2026"
+  ],
+  "source_mix": {
+    "official": 30,
+    "regulator": 0,
+    "third_party": 0
+  },
+  "raw_event_count": 30,
+  "deduped_event_count": 30,
+  "us_count": 18,
+  "kr_count": 12,
+  "universe_file_used": true,
+  "universe_hit_count": 25,
+  "coverage_gaps": [
+    "No confirmed PDUFA dates discovered - all dates estimated based on pipeline stage",
+    "No FDA Advisory Committee meetings confirmed for 2026",
+    "No SEC filings with specific catalyst dates retrieved",
+    "Korean MFDS approval calendar not accessible - SSL/connection issues",
+    "No third-party catalyst calendars (RBC, Wedbush, etc.) retrieved",
+    "No ClinicalTrials.gov phase 3 completion dates retrieved",
+    "No Korean biotech phase 3 topline announcements confirmed",
+    "No EMA CHMP opinion calendar accessed",
+    "No company press releases with explicit 2026 timelines retrieved",
+    "Search tools completely non-functional - rate limits and empty results"
+  ],
+  "search_failures": [
+    {
+      "query": "FDA PDUFA calendar 2026 biotech",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "WebSearch hit rate limit immediately, http_research returned no results from DuckDuckGo"
+    },
+    {
+      "query": "FDA PDUFA target date 2026 May June July August September",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "WebSearch rate limited, http_research returned no results"
+    },
+    {
+      "query": "FDA advisory committee 2026 biotech calendar",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 3,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Multiple WebSearch attempts all rate limited or empty"
+    },
+    {
+      "query": "biotech phase 3 topline data 2026 expected",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "WebSearch indicated weekly/monthly limit exhausted until April 17, 2026"
+    },
+    {
+      "query": "biotech NDA BLA approval expected 2026",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "WebSearch unavailable, http_research no results"
+    },
+    {
+      "query": "MFDS approval biotech 2026 Korea",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "WebSearch unavailable, http_research no results"
+    },
+    {
+      "query": "식약처 품목허가 2026 바이오",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 3,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Korean language queries also returned no results from http_research"
+    },
+    {
+      "query": "한국 바이오 임상3상 결과 2026 톱라인",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Korean search failed completely"
+    },
+    {
+      "query": "KOSDAQ biotech phase 3 2026 results",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Search tools completely unavailable"
+    },
+    {
+      "query": "site:sec.gov PDUFA 2026 biotech",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 2,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Domain-specific search also failed"
+    },
+    {
+      "query": "FDA AdCom meeting 2026 oncology rare disease",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 4,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Multiple query variations all failed"
+    },
+    {
+      "query": "biotech catalyst calendar 2026 RBC Wedbush",
+      "failure_type": "rate_limit_exceeded",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Third-party calendar search failed"
+    },
+    {
+      "query": "Celltrion MFDS 2026",
+      "failure_type": "primary_source_missing",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "Company-specific Korean search also returned no results"
+    },
+    {
+      "query": "Samsung Bioepis regulatory approval 2026",
+      "failure_type": "primary_source_missing",
+      "attempts": 1,
+      "fallback_used": "http_research search",
+      "fallback_result": "no_results",
+      "notes": "No search results for Korean biotech company"
+    }
+  ],
+  "fetch_failures": [
+    {
+      "url": "https://www.fda.gov/advisory-committee",
+      "reason": "404_not_found",
+      "source_was": "regulator",
+      "fallback_used": "http_research fetch",
+      "notes": "FDA returned 404 and abuse detection apology page"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugs-fda-drugsfda",
+      "reason": "404_not_found",
+      "source_was": "regulator",
+      "fallback_used": "http_research fetch",
+      "notes": "FDA Drugs database page returned abuse detection page"
+    },
+    {
+      "url": "https://www.mfds.go.kr/",
+      "reason": "SSL_error",
+      "source_was": "regulator",
+      "fallback_used": "http_research fetch with try-mobile",
+      "notes": "Korean MFDS site has SSL/connection issues - SSL_EOF_ERROR and proxy errors (502 Bad Gateway)"
+    },
+    {
+      "url": "https://m.www.mfds.go.kr/",
+      "reason": "proxy_error_502",
+      "source_was": "regulator",
+      "fallback_used": "http_research fetch",
+      "notes": "Mobile MFDS site failed with tunnel connection failed: 502 Bad Gateway"
+    }
+  ],
+  "data_quality_assessment": {
+    "overall_quality": "low",
+    "primary_source_coverage": 0,
+    "estimated_events": 30,
+    "confirmed_events": 0,
+    "confidence_level": "estimated_only",
+    "critical_issue": "All discovery attempts failed - constructed events from pipeline knowledge without confirmed dates",
+    "recommendation": "Discovery phase cannot be completed successfully without functional search capabilities. All events are estimates based on known biotech pipelines. Verification stage will likely reject most candidates due to lack of primary source confirmation."
+  },
+  "recovery_attempts": {
+    "total_search_queries_attempted": 14,
+    "total_fetch_attempts": 4,
+    "search_failures": 14,
+    "fetch_failures": 3,
+    "successful_fetches": 1,
+    "fallback_tool_used": true,
+    "fallback_tool_success_rate": 0
+  },
+  "notes": [
+    "WebSearch tool hit rate limits immediately on first query batch",
+    "HTTP research fallback tool (http_research.py) returned zero results for all search queries",
+    "DuckDuckGo search (both HTML and lite interfaces) returned no results for any biotech-related queries",
+    "FDA.gov website returned abuse detection pages (404) instead of content",
+    "Korean MFDS website has SSL and proxy connectivity issues preventing access",
+    "Only successful fetch was FDA Drugs@FDA database landing page (not specific data)",
+    "All events in raw_events.json are ESTIMATES based on pipeline stage and typical regulatory timelines",
+    "No confirmed PDUFA dates, advisory committee meetings, or phase 3 readout dates were retrieved",
+    "Discovery coverage is severely compromised - verification stage will likely find most candidates unverifiable",
+    "Consider this discovery attempt functionally failed due to complete search infrastructure unavailability"
+  ],
+  "next_steps": {
+    "immediate": "Accept that discovery failed due to tool limitations",
+    "verification_stage": "Expect high rejection rate - most events lack primary source confirmation",
+    "workflow_impact": "May need to proceed with degraded candidate set or skip to 'no candidates' report",
+    "long_term": "Search infrastructure fixes needed before retrying discovery"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "verification_timestamp": "2026-03-21T00:00:00Z",
+  "total_claims": 31,
+  "infrastructure_status": "comprehensive_failure",
+  "attempts": {
+    "web_search_attempts": 5,
+    "http_search_attempts": 10,
+    "http_fetch_attempts": 5,
+    "primary_source_checks": 0,
+    "total_attempts": 20
+  },
+  "outcomes": {
+    "confirmed": 0,
+    "estimated": 30,
+    "rumor": 1,
+    "excluded": 0
+  },
+  "search_infrastructure_failures": {
+    "web_search": {
+      "error_type": "rate_limit_exhausted",
+      "error_details": "Weekly/Monthly Limit Exhausted. Limit resets 2026-04-17 18:32:19",
+      "queries_attempted": 5,
+      "all_failed": true,
+      "test_queries": [
+        "Crispr Therapeutics exa-cel CTX001 PDUFA 2026 FDA",
+        "Verve Therapeutics VERVE-101 PDUFA 2026 FDA",
+        "Intellia NTLA-2001 transthyretin amyloidosis PDUFA 2026",
+        "Editas EDIT-301 sickle cell PDUFA 2026 FDA",
+        "Arrowhead ARO-AAT PDUFA alpha-1 antitrypsin 2026"
+      ]
+    },
+    "http_research_search": {
+      "error_type": "no_results_and_connection_failures",
+      "queries_attempted": 10,
+      "successes": 0,
+      "errors": [
+        "duckduckgo_html:no_results",
+        "duckduckgo_lite:no_results"
+      ],
+      "test_queries": [
+        "Crispr Therapeutics exa-cel CTX001 FDA approval 2026",
+        "Verve Therapeutics VERVE-101 FDA submission 2026",
+        "Intellia NTLA-2001 BLA submission 2026",
+        "Editas EDIT-301 phase 3 sickle cell 2026",
+        "Arrowhead ARO-AAT phase 3 alpha-1 antitrypsin 2026",
+        "PDUFA 2026 CRSP (site:sec.gov)",
+        "exa-cel FDA approval (site:fda.gov)",
+        "VERVE-101 clinical trial 2026 (site:clinicaltrials.gov)",
+        "NTLA-2001 transthyretin amyloidosis (site:clinicaltrials.gov)",
+        "ARO-AAT alpha-1 antitrypsin Arrowhead (site:clinicaltrials.gov)"
+      ]
+    },
+    "http_research_fetch": {
+      "error_type": "SSL_timeout_proxy_errors",
+      "fetch_attempts": 5,
+      "successes": 0,
+      "errors": [
+        "SSL: TLSV1_UNRECOGNIZED_NAME - ir.crispr.com",
+        "ProxyError: 502 Bad Gateway - investors.vervetx.com",
+        "ReadTimeout: read timeout exceeded - ir.intelliatx.com",
+        "ReadTimeout: read timeout exceeded - ir.editasmedicine.com",
+        "ReadTimeout: read timeout exceeded - ir.arrowheadpharma.com"
+      ],
+      "urls_attempted": [
+        "https://ir.crispr.com/news-releases",
+        "https://investors.vervetx.com/news-releases",
+        "https://ir.intelliatx.com/news-releases",
+        "https://ir.editasmedicine.com/news-releases",
+        "https://ir.arrowheadpharma.com/news-releases"
+      ]
+    }
+  },
+  "verification_methodology": {
+    "primary_source_targets": [
+      "SEC EDGAR filings (8-K, 10-K, DEF 14A)",
+      "FDA.gov Advisory Committee calendar",
+      "FDA Drugs@FDA database",
+      "ClinicalTrials.gov registry",
+      "MFDS (Korean Ministry of Food and Drug Safety) announcements",
+      "Company investor relations press releases",
+      "Company pipeline presentations"
+    ],
+    "actual_sources_accessed": "None - comprehensive infrastructure failure prevented all primary source access",
+    "fallback_methods_used": [
+      "Ticker validity check against known market data",
+      "Therapeutic area alignment assessment",
+      "Known company status checks (acquisitions, clinical setbacks)",
+      "Conservative classification to 'Estimated' rather than exclusion"
+    ]
+  },
+  "risk_flagging_summary": {
+    "claims_with_acquisition_risk": [
+      "US_RETA_PDUFA_20260430 - Reata acquired by Biogen 2024",
+      "US_KYMR_P3TOPLINE_20260730 - Kymab acquired by Sanofi 2021"
+    ],
+    "claims_with_regulatory_setback_risk": [
+      "US_VERV_PDUFA_20260630 - VERVE-101 clinical pause 2023",
+      "US_RETA_PDUFA_20260430 - Bardoxolone CRL 2020",
+      "US_FGEN_P3TOPLINE_20260515 - Roxadustat CRL 2021"
+    ],
+    "claims_with_potential_outdated_information": [
+      "US_CRSP_PDUFA_20260515 - exa-cel already approved 2023",
+      "US_ALNY_PDUFA_20260615 - vutrisiran already approved 2022",
+      "US_KYMR_P3TOPLINE_20260730 - company no longer independent"
+    ],
+    "claims_with_program_ownership_questions": [
+      "KR_258570_MFDS_20260815 - Besremi ownership questionable"
+    ],
+    "korean_source_unverified": 11,
+    "primary_source_unverified": 31,
+    "search_infrastructure_failed": 31
+  },
+  "classification_rationale": {
+    "confirmed_count_0": "No primary source access possible. WebSearch, HTTP search, and HTTP fetch all failed comprehensively. Without access to SEC filings, FDA announcements, company IR pages, or MFDS sources, cannot confirm any event dates.",
+    "estimated_count_30": "All verifiable claims (valid tickers, plausible therapeutic alignment) classified as 'Estimated' with Low confidence (0.25-0.35). Conservative approach retains candidates in workflow while explicitly flagging uncertainty. Allows downstream agents (bear-case auditor, quant analyst) to assess risk-reward rather than prematurely excluding potentially valid catalysts.",
+    "rumor_count_1": "US_KYMR_P3TOPLINE_20260730 classified as 'Rumor' with Very Low confidence (0.15). Kymab acquired by Sanofi in 2021, company no longer trades independently. Claim appears factually outdated. Retained in watchlist rather than excluded due to inability to confirm acquisition status via primary sources.",
+    "excluded_count_0": "No definitive exclusion possible. While several claims questionable (KYMR, RETA, CRSP, Bukwang), exclusion requires primary source confirmation of invalid ticker, completed event, or cancelled program. Search infrastructure failure prevents such confirmation. Flagged with appropriate risk flags in watchlist instead."
+  },
+  "quality_assessment": {
+    "verification_confidence": "Very Low",
+    "search_infrastructure_health": "Failed - All methods (WebSearch, http_research search/fetch) non-functional",
+    "data_reliability": "Unable to assess - No primary source access achieved",
+    "recommendation": "Do NOT proceed with trading decisions based on this verification. Re-run verification when search infrastructure restored. Prioritize: (1) SEC EDGAR 8-K/10-K searches for PDUFA date confirmations, (2) FDA Advisory Committee calendar verification, (3) Company IR press release validation, (4) MFDS Korean source verification for Korean tickers, (5) Remove KYMR if Sanofi acquisition confirmed, (6) Verify RETA/Biogen acquisition impact on independent catalyst potential, (7) Validate CRSP exa-cel status (already approved vs new indication), (8) Confirm VERVE-101 clinical pause status and re-initiation timeline."
+  },
+  "next_steps": {
+    "immediate": "Flag to user: Verification incomplete due to infrastructure failure. All claims unverified.",
+    "short_term": "Re-run verification workflow when WebSearch quota resets (2026-04-17) or when HTTP fetch issues resolved",
+    "manual_verification_priority": [
+      "CRSP - Verify exa-cel approval status and new indication submissions",
+      "VERV - Confirm VERVE-101 clinical pause and re-initiation status",
+      "RETA - Verify Biogen acquisition impact on independent catalyst trading",
+      "KYMR - Confirm Sanofi acquisition, consider exclusion",
+      "Korean claims - Seek Korean-language source access or translation"
+    ],
+    "workflow_continuation": "Proceed to bear-case auditor with explicit caveat: All candidates unverified, risk flags applied. Bear-case auditor should treat all claims as highly uncertain until primary source verification achieved."
+  },
+  "verified_events_path": "/mnt/d/workspace/biotech-alpha-claude-code-v3/.claude/memory/verified_events.json",
+  "watchlist_path": "/mnt/d/workspace/biotech-alpha-claude-code-v3/.claude/memory/watchlist_candidates.json",
+  "excluded_path": "/mnt/d/workspace/biotech-alpha-claude-code-v3/.claude/memory/excluded_events.json"
+}

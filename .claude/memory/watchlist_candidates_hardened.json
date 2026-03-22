@@ -1,0 +1,451 @@
+{
+  "generated_timestamp": "2026-03-21T00:00:00Z",
+  "infrastructure_status": "search_completely_failed",
+  "watchlist_criteria": "Downgraded from core due to: (1) major red flags but plausible catalyst, (2) unverified timelines with structural concerns, (3) clinical/regulatory setbacks but programs potentially active, (4) outdated claims that may refer to expansion indications",
+  "watchlist": [
+    {
+      "ticker": "CRSP",
+      "claim_id": "US_CRSP_PDUFA_20260515",
+      "company_name": "Crispr Therapeutics",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.65,
+      "downgrade_reasons": [
+        "exa-cel (CTX001) already FDA-approved in 2023 - claimed 2026 PDUFA may be outdated",
+        "Cannot verify if PDUFA refers to new indication or is factually incorrect",
+        "Event may already be resolved"
+      ],
+      "major_risks": [
+        "Outdated claim - primary catalyst may already have occurred",
+        "If 2026 PDUFA is for new indication, cannot verify submission status",
+        "Gene editing competitive landscape evolving"
+      ],
+      "red_flags": ["outdated_claim", "primary_source_unverified"],
+      "watchlist_rationale": "Gene editing leader with legitimate platform, but specific 2026 PDUFA claim questionable given exa-cel already approved. May have unannounced new indication, but requires verification."
+    },
+    {
+      "ticker": "VERV",
+      "claim_id": "US_VERV_PDUFA_20260630",
+      "company_name": "Verve Therapeutics",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.75,
+      "downgrade_reasons": [
+        "VERVE-101 clinical program paused in 2023 due to safety concerns",
+        "Cannot verify current program status or if PDUFA timeline is realistic",
+        "Safety signal increases regulatory approval risk"
+      ],
+      "major_risks": [
+        "Clinical hold/pause due to safety",
+        "Program may not be active or approved for BLA submission",
+        "High probability of CRL or additional clinical holds"
+      ],
+      "red_flags": ["clinical_program_paused", "safety_signal"],
+      "watchlist_rationale": "Gene editing for cardiovascular disease, but clinical hold in 2023 is major red flag. Program may still be active but high regulatory risk. Only watchlist pending safety/program status clarification."
+    },
+    {
+      "ticker": "NTLA",
+      "claim_id": "US_NTLA_PDUFA_20260815",
+      "company_name": "Intellia Therapeutics",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "NTLA-2001 phase 3 status and BLA timeline cannot be verified",
+        "Unclear if on track for 2026 PDUFA"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Unclear BLA submission status",
+        "Competitive ATTR amyloidosis landscape"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "LNP-delivered gene editing platform validated, but phase 3 progress unverified. Plausible catalyst but requires timeline verification."
+    },
+    {
+      "ticker": "EDIT",
+      "claim_id": "US_EDIT_PDUFA_20260701",
+      "company_name": "Editas Medicine",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.60,
+      "downgrade_reasons": [
+        "Editas has faced clinical setbacks and pipeline prioritization changes",
+        "EDIT-301 phase 3 status and PDUFA timeline cannot be verified",
+        "Small-cap with financing risk"
+      ],
+      "major_risks": [
+        "Clinical setbacks in pipeline history",
+        "Unclear if EDIT-301 is active priority",
+        "Cash burn and potential dilution financing"
+      ],
+      "red_flags": ["clinical_setback_risk", "financial_risk"],
+      "watchlist_rationale": "Gene editing platform but execution challenges. EDIT-301 timeline unverified. High risk/reward but requires verification of program status."
+    },
+    {
+      "ticker": "BEAM",
+      "claim_id": "US_BEAM_P3TOPLINE_20260415",
+      "company_name": "Beam Therapeutics",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.50,
+      "downgrade_reasons": [
+        "BEAM-101 phase 3 timeline cannot be verified",
+        "Base editing platform but clinical progress unverified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Unclear phase 3 enrollment status",
+        "Competitive gene editing landscape"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "Base editing platform with potential, but phase 3 timeline unverified. Plausible catalyst pending verification."
+    },
+    {
+      "ticker": "ARWR",
+      "claim_id": "US_ARWR_PDUFA_20260530",
+      "company_name": "Arrowhead Pharmaceuticals",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.50,
+      "downgrade_reasons": [
+        "ARO-AAT phase 3 and PDUFA timeline cannot be verified",
+        "RNA therapeutics but submission status unclear"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Unclear BLA submission timeline",
+        "Rare disease market size limitations"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "RNAi therapeutics platform validated, but ARO-AAT timeline unverified. Plausible catalyst requires verification."
+    },
+    {
+      "ticker": "ALNY",
+      "claim_id": "US_ALNY_PDUFA_20260615",
+      "company_name": "Alnylam Pharmaceuticals",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.55,
+      "downgrade_reasons": [
+        "Vutrisiran already FDA-approved in 2022 for polyneuropathy",
+        "Claimed 2026 PDUFA may refer to cardiomyopathy expansion",
+        "Cannot verify if expansion BLA submitted or timeline accurate"
+      ],
+      "major_risks": [
+        "Outdated claim - primary therapy already approved",
+        "Expansion indication may not be filed or may have different timeline",
+        "Commercial overlap with existing approval"
+      ],
+      "red_flags": ["outdated_claim", "primary_source_unverified"],
+      "watchlist_rationale": "RNAi leader with legitimate platform, but 2026 PDUFA likely refers to vutrisiran expansion (already approved for polyneuropathy). May be valid expansion catalyst but requires clarification."
+    },
+    {
+      "ticker": "IOVA",
+      "claim_id": "US_IOVA_P3TOPLINE_20260501",
+      "company_name": "Iovance Biotherapeutics",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Multiple phase 3 programs ongoing",
+        "Specific readout timeline cannot be verified",
+        "Unclear which program drives 2026 catalyst"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Multiple programs unclear which is catalyst",
+        "TIL therapy commercial execution risk"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "TIL therapy leader with approved products (Amtagvi), but 2026 phase 3 timeline and specific program unverified. Plausible catalyst requires program clarification."
+    },
+    {
+      "ticker": "RARE",
+      "claim_id": "US_RARE_P3TOPLINE_20260615",
+      "company_name": "Ultragenyx Pharmaceutical",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Multiple gene therapy phase 3 programs ongoing",
+        "Specific readout timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Multiple programs unclear which is catalyst",
+        "Gene therapy manufacturing complexity"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "Rare disease leader with multiple programs, but 2026 timeline and specific catalyst unverified. Plausible but requires verification."
+    },
+    {
+      "ticker": "NBIX",
+      "claim_id": "US_NBIX_P3TOPLINE_20260515",
+      "company_name": "Neurocrine Biosciences",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.40,
+      "downgrade_reasons": [
+        "Multiple CNS phase 3 programs ongoing",
+        "Specific readout timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Multiple programs unclear which is catalyst",
+        "CNS clinical trial complexity"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "CNS-focused company with commercial products, but 2026 timeline and specific program unverified. Lower risk profile but requires verification."
+    },
+    {
+      "ticker": "INSM",
+      "claim_id": "US_INSM_PDUFA_20260601",
+      "company_name": "Insmed",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Treprostinil palmitiline program timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Respiratory therapy development risk"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "Respiratory-focused company, but program timeline unverified. Plausible catalyst requires verification."
+    },
+    {
+      "ticker": "MRTX",
+      "claim_id": "US_MRTX_P3TOPLINE_20260715",
+      "company_name": "Mirati Therapeutics",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.55,
+      "downgrade_reasons": [
+        "Krazati (adagrasib) commercial challenges and competition",
+        "KRAS inhibitor program timelines in additional indications cannot be verified"
+      ],
+      "major_risks": [
+        "Commercial challenges with launched product",
+        "Competition from Lumakras (sotorasib)",
+        "Primary source unverified for additional indications"
+      ],
+      "red_flags": ["commercial_challenges_risk", "primary_source_unverified"],
+      "watchlist_rationale": "KRAS inhibitor with approved drug but commercial execution challenges. Additional indications may be catalyst but unverified."
+    },
+    {
+      "ticker": "ARVN",
+      "claim_id": "US_ARVN_P3TOPLINE_20260530",
+      "company_name": "Arvinas",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.50,
+      "downgrade_reasons": [
+        "ARV-471 PROTAC phase 3 timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "PROTAC novel mechanism clinical risk",
+        "Breast cancer competitive landscape"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "PROTAC pioneer with novel mechanism, but phase 3 timeline unverified. High-risk/high-reward requires verification."
+    },
+    {
+      "ticker": "KURA",
+      "claim_id": "US_KURA_P3TOPLINE_20260630",
+      "company_name": "Kura Oncology",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.50,
+      "downgrade_reasons": [
+        "Tirbanibulin and other programs phase 3 timelines cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Oncology clinical trial risk"
+      ],
+      "red_flags": ["primary_source_unverified"],
+      "watchlist_rationale": "Oncology-focused company, but phase 3 timelines unverified. Plausible catalyst requires verification."
+    },
+    {
+      "ticker": "FGEN",
+      "claim_id": "US_FGEN_P3TOPLINE_20260515",
+      "company_name": "FibroGen",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.70,
+      "downgrade_reasons": [
+        "Roxadustat FDA CRL in 2021 - major regulatory failure",
+        "Pamrevlumab clinical setbacks with negative trials",
+        "Program timelines may be overly optimistic given setbacks"
+      ],
+      "major_risks": [
+        "History of regulatory setbacks",
+        "Multiple program failures",
+        "Management credibility concerns",
+        "Primary source unverified"
+      ],
+      "red_flags": ["regulatory_setback_risk", "clinical_setback_risk"],
+      "watchlist_rationale": "History of regulatory and clinical failures. Any 2026 catalyst must be viewed skeptically pending verification and credibility assessment."
+    },
+    {
+      "ticker": "006280",
+      "claim_id": "KR_006280_MFDS_20260430",
+      "company_name": "Samsung Bioepis",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.40,
+      "downgrade_reasons": [
+        "Korean MFDS sources inaccessible",
+        "SB11 ranibizumab biosimilar timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean regulatory source inaccessible",
+        "Biosimilar market competition"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Major Korean biosimilar company, but MFDS timeline unverified due to source access issues. Plausible but requires Korean-language verification."
+    },
+    {
+      "ticker": "068270",
+      "claim_id": "KR_068270_MFDS_20260515",
+      "company_name": "Celltrion",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.40,
+      "downgrade_reasons": [
+        "Korean MFDS sources inaccessible",
+        "CT-P43 regulatory milestone timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean regulatory source inaccessible",
+        "Biosimilar market competition"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Major Korean biosimilar company, but MFDS timeline unverified. Plausible but requires Korean-language verification."
+    },
+    {
+      "ticker": "086890",
+      "claim_id": "KR_086890_P3TOPLINE_20260401",
+      "company_name": "SK Bioscience",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Korean sources inaccessible",
+        "Pneumococcal conjugate vaccine phase 3 timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean source inaccessible",
+        "Vaccine market dynamics"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean vaccine company, but phase 3 timeline unverified. Plausible catalyst requires Korean-language verification."
+    },
+    {
+      "ticker": "207940",
+      "claim_id": "KR_207940_MFDS_20260331",
+      "company_name": "GC Pharma",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Korean sources inaccessible",
+        "Bioveta program timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean source inaccessible"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean biologics company, but timeline unverified. Plausible catalyst requires Korean-language verification."
+    },
+    {
+      "ticker": "069260",
+      "claim_id": "KR_069260_MFDS_20260731",
+      "company_name": "HLB",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.60,
+      "downgrade_reasons": [
+        "Liver cancer therapy (Rivamer) has faced complex regulatory pathways",
+        "Timeline cannot be verified",
+        "Korean sources inaccessible"
+      ],
+      "major_risks": [
+        "Regulatory complexity",
+        "Primary source unverified",
+        "Korean source inaccessible",
+        "Complex regulatory pathway history"
+      ],
+      "red_flags": ["regulatory_complexity_risk", "primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean oncology company, but regulatory complexity and timeline unverified. Higher risk due to regulatory history."
+    },
+    {
+      "ticker": "214320",
+      "claim_id": "KR_214320_P3TOPLINE_20260615",
+      "company_name": "Hugel",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Korean sources inaccessible",
+        "Botulinum toxin and aesthetic medicine pipeline timelines cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean source inaccessible",
+        "Aesthetic medicine market dynamics"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean aesthetic medicine company, but timelines unverified. Plausible catalyst requires Korean-language verification."
+    },
+    {
+      "ticker": "950130",
+      "claim_id": "KR_950130_P3TOPLINE_20260430",
+      "company_name": "Pharmicell",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Korean sources inaccessible",
+        "Cell therapy phase 3 timeline cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean source inaccessible",
+        "Cell therapy manufacturing complexity"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean cell therapy company, but timeline unverified. Plausible catalyst requires Korean-language verification."
+    },
+    {
+      "ticker": "089890",
+      "claim_id": "KR_089890_P3TOPLINE_20260915",
+      "company_name": "Daewoong Pharmaceutical",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Korean sources inaccessible",
+        "NASH and metabolic program phase 3 timelines cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean source inaccessible",
+        "NASH clinical trial complexity (high failure rate historically)"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean metabolic disease company, but NASH programs historically high-risk. Timeline unverified."
+    },
+    {
+      "ticker": "267540",
+      "claim_id": "KR_267540_P3TOPLINE_20260715",
+      "company_name": "Chong Kun Dang Pharmaceutical",
+      "bear_case_review": "downgrade_watchlist",
+      "thesis_break_score": 0.45,
+      "downgrade_reasons": [
+        "Korean sources inaccessible",
+        "Parkinson's and CNS program phase 3 timelines cannot be verified"
+      ],
+      "major_risks": [
+        "Primary source unverified",
+        "Korean source inaccessible",
+        "CNS clinical trial complexity"
+      ],
+      "red_flags": ["primary_source_unverified", "korean_source_unverified"],
+      "watchlist_rationale": "Korean CNS company, but timelines unverified. Plausible catalyst requires Korean-language verification."
+    }
+  ],
+  "watchlist_count": 24,
+  "downgrade_summary": {
+    "outdated_claims": 2,
+    "clinical_program_paused": 1,
+    "regulatory_setback_history": 1,
+    "commercial_challenges": 1,
+    "primary_source_unverified_only": 19
+  },
+  "notes": "24 candidates downgraded to watchlist due to combination of: (1) unverified catalyst timelines, (2) known clinical/regulatory setbacks, (3) outdated claims that may already be resolved, (4) Korean source access limitations. All candidates remain plausible but require verification before trading consideration. Highest watchlist priority for verification: CRSP (confirm if new indication), VERV (confirm program status), FGEN (assess credibility after setbacks)."
+}

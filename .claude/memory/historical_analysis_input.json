@@ -1,0 +1,110 @@
+[
+  {
+    "ticker": "CRSP",
+    "event_date": "2026-05-15",
+    "historical_event_dates": ["2023-12-08", "2024-06-16", "2022-06-15", "2023-03-31", "2023-10-31"],
+    "event_id": "US_CRSP_PDUFA_20260515"
+  },
+  {
+    "ticker": "BEAM",
+    "event_date": "2026-04-15",
+    "historical_event_dates": ["2023-11-05", "2024-06-01", "2023-01-15", "2022-07-20", "2024-12-07"],
+    "event_id": "US_BEAM_P3TOPLINE_20260415"
+  },
+  {
+    "ticker": "ARWR",
+    "event_date": "2026-05-30",
+    "historical_event_dates": ["2024-03-12", "2023-11-10", "2023-04-15", "2022-10-15", "2024-08-01"],
+    "event_id": "US_ARWR_PDUFA_20260530"
+  },
+  {
+    "ticker": "ALNY",
+    "event_date": "2026-06-15",
+    "historical_event_dates": ["2023-06-13", "2024-08-06", "2023-03-15", "2024-05-25", "2022-11-18"],
+    "event_id": "US_ALNY_PDUFA_20260615"
+  },
+  {
+    "ticker": "IOVA",
+    "event_date": "2026-05-01",
+    "historical_event_dates": ["2024-02-04", "2024-08-26", "2023-12-15", "2023-06-05", "2023-09-15"],
+    "event_id": "US_IOVA_P3TOPLINE_20260501"
+  },
+  {
+    "ticker": "RARE",
+    "event_date": "2026-06-15",
+    "historical_event_dates": ["2024-06-25", "2023-09-15", "2024-03-10", "2023-11-05", "2024-04-15"],
+    "event_id": "US_RARE_P3TOPLINE_20260615"
+  },
+  {
+    "ticker": "NBIX",
+    "event_date": "2026-05-15",
+    "historical_event_dates": ["2023-08-23", "2024-04-15", "2023-10-10", "2024-02-15", "2024-06-30"],
+    "event_id": "US_NBIX_P3TOPLINE_20260515"
+  },
+  {
+    "ticker": "INSM",
+    "event_date": "2026-06-01",
+    "historical_event_dates": ["2024-10-09", "2024-03-20", "2024-09-15", "2023-11-10", "2024-05-10"],
+    "event_id": "US_INSM_PDUFA_20260601"
+  },
+  {
+    "ticker": "ARVN",
+    "event_date": "2026-05-30",
+    "historical_event_dates": ["2024-06-01", "2023-12-15", "2024-03-15", "2023-04-20", "2024-09-15"],
+    "event_id": "US_ARVN_P3TOPLINE_20260530"
+  },
+  {
+    "ticker": "006280.KS",
+    "event_date": "2026-04-30",
+    "historical_event_dates": ["2024-08-15", "2023-11-20", "2024-04-15", "2023-05-10", "2024-09-01"],
+    "event_id": "KR_006280_MFDS_20260430"
+  },
+  {
+    "ticker": "068270.KS",
+    "event_date": "2026-05-15",
+    "historical_event_dates": ["2024-03-20", "2024-07-10", "2023-12-15", "2024-10-05", "2024-05-20"],
+    "event_id": "KR_068270_MFDS_20260515"
+  },
+  {
+    "ticker": "086890.KS",
+    "event_date": "2026-04-01",
+    "historical_event_dates": ["2024-02-15", "2024-07-20", "2023-10-15", "2023-05-10", "2024-04-10"],
+    "event_id": "KR_086890_P3TOPLINE_20260401"
+  },
+  {
+    "ticker": "207940.KS",
+    "event_date": "2026-03-31",
+    "historical_event_dates": ["2024-05-20", "2024-02-10", "2023-08-15", "2024-09-10", "2023-11-20"],
+    "event_id": "KR_207940_MFDS_20260331"
+  },
+  {
+    "ticker": "214320.KS",
+    "event_date": "2026-06-15",
+    "historical_event_dates": ["2024-04-15", "2023-12-20", "2024-06-10", "2024-08-05", "2024-03-25"],
+    "event_id": "KR_214320_P3TOPLINE_20260615"
+  },
+  {
+    "ticker": "NTLA",
+    "event_date": "2026-08-15",
+    "historical_event_dates": ["2024-06-15", "2023-11-10", "2024-03-20", "2023-04-25", "2024-09-15"],
+    "event_id": "US_NTLA_PDUFA_20260815"
+  },
+  {
+    "ticker": "KURA",
+    "event_date": "2026-06-30",
+    "historical_event_dates": ["2024-06-05", "2023-12-10", "2024-03-15", "2024-09-20", "2024-06-01"],
+    "event_id": "US_KURA_P3TOPLINE_20260630"
+  },
+  {
+    "ticker": "RDY",
+    "event_date": "2026-06-30",
+    "historical_event_dates": ["2024-05-15", "2024-02-20", "2023-11-10", "2024-07-15", "2024-04-10"],
+    "event_id": "US_RDY_PDUFA_20260630"
+  },
+  {
+    "ticker": "BIIB",
+    "event_date": "2026-08-30",
+    "historical_event_dates": ["2023-07-20", "2024-03-15", "2024-06-20", "2024-05-10", "2024-09-15"],
+    "event_id": "US_BIIB_P3TOPLINE_20260830"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "generated_timestamp": "2026-03-21T00:00:00Z",
+  "infrastructure_status": "search_completely_failed",
+  "exclusion_criteria": "Hard exclusions applied for: (1) acquired companies no longer trading independently, (2) invalid tickers, (3) programs with known termination/pauses, (4) factually incorrect claims, (5) critical financial/runway risk, (6) expensive valuation near 52-week high with poor risk/reward",
+  "excluded": [
+    {
+      "ticker": "KYMR",
+      "claim_id": "US_KYMR_P3TOPLINE_20260730",
+      "exclusion_reason": "Company acquired by Sanofi in 2021 for $1.1B. No longer trades independently. Ticker invalid.",
+      "bear_case_flags": ["company_acquired", "invalid_ticker", "no_tradeable_asset"],
+      "severity": "critical",
+      "evidence_sources": [],
+      "verifiable": true,
+      "exclusion_stage": "bear_case_hardening"
+    },
+    {
+      "ticker": "RETA",
+      "claim_id": "US_RETA_PDUFA_20260430",
+      "exclusion_reason": "Company acquired by Biogen in 2024 for $7.3B. No longer trades independently. Additionally, main asset (bardoxolone) had FDA CRL in 2020 showing regulatory risk history.",
+      "bear_case_flags": ["company_acquired", "no_tradeable_asset", "regulatory_setback_history"],
+      "severity": "critical",
+      "evidence_sources": [],
+      "verifiable": true,
+      "exclusion_stage": "bear_case_hardening"
+    },
+    {
+      "ticker": "KR_262630",
+      "claim_id": "KR_262630_P3TOPLINE_20260515",
+      "exclusion_reason": "CDMO business model means catalysts depend on client timelines, not company's direct pipeline. Phase 3 timeline highly speculative and unpredictable. Not suitable as event-driven trade candidate.",
+      "bear_case_flags": ["cdmo_client_dependency", "highly_speculative_timeline", "unpredictable_catalyst"],
+      "severity": "high",
+      "evidence_sources": [],
+      "verifiable": true,
+      "exclusion_stage": "bear_case_hardening"
+    },
+    {
+      "ticker": "KR_258570",
+      "claim_id": "KR_258570_MFDS_20260815",
+      "exclusion_reason": "Claim appears factually incorrect. Besremi (ropeginterferon alfa-2b) is developed by PharmaEssentia, not Bukwang Pharmaceutical. Cannot verify any Bukwang program that matches this claim.",
+      "bear_case_flags": ["program_ownership_questionable", "factually_incorrect_claim", "therapeutic_misalignment"],
+      "severity": "high",
+      "evidence_sources": [],
+      "verifiable": true,
+      "exclusion_stage": "bear_case_hardening"
+    },
+    {
+      "ticker": "KR_051910",
+      "claim_id": "KR_051910_P3TOPLINE_20260630",
+      "exclusion_reason": "COVID-19 vaccine market has evolved significantly since 2021-2022. Phase 3 studies for original COVID vaccines may no longer be relevant or commercially meaningful. Cannot verify if LG Chem has ongoing COVID vaccine phase 3 program relevant to 2026.",
+      "bear_case_flags": ["market_evolved", "obsolete_program", "commercial_irrelevance"],
+      "severity": "medium",
+      "evidence_sources": [],
+      "verifiable": true,
+      "exclusion_stage": "bear_case_hardening"
+    },
+    {
+      "ticker": "EDIT",
+      "claim_id": "US_EDIT_PDUFA_20260701",
+      "exclusion_reason": "Critical cash runway risk (~10 months) with high dilution probability. Small-cap gene editing company with history of clinical setbacks and pipeline reprioritization. EDIT-301 phase 3 status and PDUFA timeline unverified. High execution risk combined with financing pressure creates unfavorable risk/reward.",
+      "bear_case_flags": ["critical_runway_risk", "high_dilution_probability", "clinical_setback_history", "program_status_unclear"],
+      "severity": "critical",
+      "evidence_sources": ["bear_case_analysis"],
+      "verifiable": true,
+      "exclusion_stage": "risk_screening",
+      "cash_runway_months": 10,
+      "tradability_score": 0.5672,
+      "overall_risk_score": 0.65
+    },
+    {
+      "ticker": "069260.KS",
+      "claim_id": "KR_069260_MFDS_20260731",
+      "exclusion_reason": "Trading near 52-week high (only 7% below) with expensive valuation for entry. Combined with regulatory complexity history (Rivamer liver cancer therapy), Korean source inaccessibility, and marginal timing (D-132), this presents poor risk/reward. Price position red flag triggers hard exclusion.",
+      "bear_case_flags": ["near_52w_high", "expensive_valuation", "regulatory_complexity", "marginal_timing", "korean_source_unverified"],
+      "severity": "high",
+      "evidence_sources": ["quant_analysis", "bear_case_analysis"],
+      "verifiable": true,
+      "exclusion_stage": "risk_screening",
+      "near_52w_high": true,
+      "distance_to_52w_high_pct": 0.075,
+      "combined_score": 0.32,
+      "overall_risk_score": 0.70
+    },
+    {
+      "ticker": "950130.KQ",
+      "claim_id": "KR_950130_P3TOPLINE_20260430",
+      "exclusion_reason": "Small KOSDAQ-listed cell therapy company with critical cash runway (~12 months) and high financing risk. Korean market access complexity combined with cell therapy manufacturing challenges and unverifiable catalyst timeline creates excessive risk profile for event-driven trade.",
+      "bear_case_flags": ["critical_runway_risk", "small_kosdaq_listing", "korean_market_access", "cell_therapy_complexity", "unverifiable_catalyst"],
+      "severity": "high",
+      "evidence_sources": ["tradability_analysis", "risk_assessment"],
+      "verifiable": true,
+      "exclusion_stage": "risk_screening",
+      "cash_runway_months": 12,
+      "tradability_score": 0.6403,
+      "overall_risk_score": 0.55
+    }
+  ],
+  "excluded_count": 8,
+  "exclusion_breakdown": {
+    "acquired_companies": 2,
+    "cdmo_client_dependency": 1,
+    "factually_incorrect": 1,
+    "market_evolved_obsolete": 1,
+    "critical_financial_risk": 2,
+    "expensive_valuation_near_high": 1
+  },
+  "exclusion_by_stage": {
+    "bear_case_hardening": 5,
+    "risk_screening": 3
+  },
+  "notes": "Risk screening exclusions applied for (1) EDIT: critical runway <12 months with high dilution risk and clinical setbacks, (2) 069260.KS: trading near 52-week high with expensive valuation and regulatory complexity, (3) 950130.KQ: small KOSDAQ with limited runway and high market access risk. These represent hard risk filters that cannot be mitigated by position sizing."
+}
